@@ -1,4 +1,4 @@
-src="https://unpkg.com/swiper/swiper-bundle.min.js"
+
 
    var swiper = new Swiper('.swiper-container', {
     autoplay: {
