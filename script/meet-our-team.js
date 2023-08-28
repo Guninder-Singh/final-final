@@ -1,11 +1,6 @@
 
 
-   var swiper = new Swiper('.swiper-container', {
-    autoplay: {
-       delay: 2000, // Set the delay between slides in milliseconds (5 seconds in this case)
-    },
-    // Other Swiper options...
- });
+
 window.addEventListener("load", event => {
 
     var swiperWrapper = document.querySelector('.swiper-wrapper');
