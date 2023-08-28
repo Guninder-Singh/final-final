@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Meet Our Team</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<link rel="stylesheet" href="C:\Users\HP\Desktop\landingpage\navbar-0\nav bar2\nav bar\style.css">
+<script src="C:\Users\HP\Desktop\navbar-0\nav bar2\nav bar\script.js"></script>
+<link rel="stylesheet" href="C:\Users\HP\Desktop\landingpage\new-style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<nav class="navigationWrapper">
+  <div class="logoWrapper">
+    <span class="stylish"><img src="https://res.cloudinary.com/danefi6av/image/upload/v1692573174/grid_landscape-removebg-preview_wdoank.png" id="team" img alt="team oorja"
+        id="image"></span>
+
+  </div>
+  <ul class="navigation">
+    <li class="parent"><a class="link" href="C:\Users\HP\Desktop\landingpage\new-index.html">Home</a></li>
+    <li class="parent"><a class="link" href="C:\Users\HP\Desktop\landingpage\new-index.html#about">About us</a></li>
+    <li class="parent" id="achievements">
+      <a class="link" href="#"><i class="fas fa-minus"></i> Achievements <i class="fas fa-plus"></i></a>
+      <ul class="subnavigation">
+        <li><a class="link" href="C:\Users\HP\Desktop\landingpage\achivce\rj-timeline\dist\index.html#effi">Year 2016</a></li>
+        <li><a class="link" href="C:\Users\HP\Desktop\landingpage\achivce\rj-timeline\dist\index.html#kari">Year 2017-18</a></li>
+        <li><a class="link" href="C:\Users\HP\Desktop\landingpage\achivce\rj-timeline\dist\index.html#gkdc">Year 2018-19</a></li>
+      </ul>
+    </li>
+    <li class="parent" id="projects">
+      <a class="link" href="#"><i class="fas fa-minus"></i> Projects <i class="fas fa-plus"></i></a>
+      <ul class="subnavigation">
+        <li><a class="link" href="C:\Users\HP\Desktop\landingpage\projectpage\projects.html#card1" >Electric Go Kart</a></li>
+          <li><a class="link" href="C:\Users\HP\Desktop\landingpage\projectpage\projects.html#card2">Quad Torc</a></li>
+          <li><a class="link" href="C:\Users\HP\Desktop\landingpage\projectpage\projects.html#card3">E Tron</a></li>
+          <li><a class="link" href="C:\Users\HP\Desktop\landingpage\projectpage\projects.html#card4" >Go Kart</a></li>
+      </ul>
+    </li>
+    <li class="parent"><a class="link" href="C:\Users\HP\Desktop\landingpage\meet our team\meet our team\index.html">Our Team</a></li>
+
+    </li>
+    <li class="parent"><a class="link" href="C:\Users\HP\Desktop\landingpage\contact us\contact us\index.html">Contact us</a></li>
+  </ul>
+</nav>
+
+ <script>
+var clients = document.getElementById('achievements');
+var services = document.getElementById('projects');
+
+
+achievements.addEventListener('click', function() {
+ $(achievements).toggleClass("active");
+ $(".parent:not(#achievements)").toggleClass("invisible");
+}, false);
+
+projects.addEventListener('click', function() {
+ $(projects).toggleClass("active");
+ $(".parent:not(#projects)").toggleClass("invisible");
+}, false);
+
+
+
+ </script>
+<div class="wrapper"> 
+
+   <section class="module-team">
+
+      <div class="team">
+         
+         <h2 class="title">Meet our Team</h2>
+         <div class="team-cards">
+
+            <!-- Slider main container -->
+            <div class="swiper-container">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper"></div>
+
+            </div>
+
+         </div>
+
+      </div>
+      
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+   // Initialize Swiper
+   var swiper = new Swiper('.swiper-container', {
+      autoplay: {
+         delay: 2000, // Set the delay between slides in milliseconds (5 seconds in this case)
+      },
+      // Other Swiper options...
+   });
+</script>
+<div class="footercontainer">
+  <h1>FOLLOW US</h1>
+  <div class="socialicons">
+      <a href="https://www.facebook.com/teamoorja/?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://instagram.com/team_oorja?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a> 
+      <a href="https://www.linkedin.com/company/team-oorja/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://youtube.com/@teamoorjathaparinstitute2761"><i class="fab fa-youtube"></i></a>
+  </div>
+</div>
+<div class="footerbottom">
+  <p>
+  Copyright © 2022  TEAM OORJA. All Rights Reserved.
+  <br>
+  Made with 💝 by TEAM OORJA
+  </p>
+</div>
+</section>
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

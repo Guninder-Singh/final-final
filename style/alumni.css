@@ -1,0 +1,106 @@
+/* Reset some default styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 13%, rgba(6,39,71,1) 51%);
+}
+
+/* Header styles */
+.alumni-club-heading {
+    font-size: 78px;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+/* Company title styles */
+.company-title {
+    font-size: 32px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Boxed card layout */
+.member-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.member-card {
+   
+    width: calc(25% - 20px); /* Adjust as needed to fit 4 cards per row */
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    color: white;
+    background-color: transparent;
+    align-items: center;
+}
+
+.member-card img {
+    width: 250px;
+    border-radius: 50%;
+    border: solid white;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.company #logo {
+    max-width: 70px; /* Adjust logo size as needed */
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+    margin-left: 78vh;
+    margin-top:10vh;
+   
+margin-bottom: -7vh;}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .member-card img {
+        max-width: 80px;
+    }
+}
+
+#single-mem{
+    margin-left: 75vh;
+}
+/* Background and text colors */
+
+
+/* Header styles */
+.alumni-club-heading {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    color: white;
+}
+
+/* Company title styles */
+.company-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    color: white;
+}
+
+/* Boxed card layout */
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .member-card img {
+        max-width: 80px;
+    }
+}
+
+.company #logo {
+    max-width: 350px; /* Adjust logo size as needed */
+align-items: center;
+align-self: center;
+    margin-bottom: 30px;
+}

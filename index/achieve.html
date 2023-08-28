@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - RJ Timeline</title>
+  <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="C:\Users\HP\Desktop\Team oorja\landingpage\style.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src="C:\Users\HP\Desktop\navbar-0\nav bar2\nav bar\script.js"></script>
+<script src="https://kit.fontawesome.com/cc6782c5f3.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="C:\Users\HP\Desktop\landingpage\style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
+  <link rel="stylesheet" href="C:\Users\HP\Desktop\landingpage\navbar-0\nav bar2\nav bar\style.css">
+</head>
+<body>
+
+  
+
+
+
+<!-- partial:index.partial.html -->
+<div class="timeline-container" id="timeline-1">
+ 
+  <nav class="navigationWrapper">
+    <div class="logoWrapper">
+      <span class="stylish"><img src="C:\Users\HP\Desktop\landingpage\navbar-0\nav bar2\nav bar\logo.png" img alt="team oorja"
+          id="image"></span>
+
+    </div>
+    <ul class="navigation">
+      <li class="parent"><a class="link" href="C:\Users\HP\Desktop\landingpage\new-index.html">Home</a></li>
+      <li class="parent"><a class="link" href="C:\Users\HP\Desktop\landingpage\new-index.html#about">About us</a></li>
+      <li class="parent" id="achievements">
+        <a class="link" href="#"><i class="fas fa-minus"></i> Achievements <i class="fas fa-plus"></i></a>
+        <ul class="subnavigation">
+          <li><a class="link" href="C:\Users\HP\Desktop\landingpage\achivce\rj-timeline\dist\index.html#effi">Year 2016</a></li>
+          <li><a class="link" href="C:\Users\HP\Desktop\landingpage\achivce\rj-timeline\dist\index.html#kari">Year 2017-18</a></li>
+          <li><a class="link" href="C:\Users\HP\Desktop\landingpage\achivce\rj-timeline\dist\index.html#gkdc">Year 2018-19</a></li>
+        </ul>
+      </li>
+      <li class="parent" id="projects">
+        <a class="link" href="#"><i class="fas fa-minus"></i> Projects <i class="fas fa-plus"></i></a>
+        <ul class="subnavigation">
+          <<li><a class="link" href="C:\Users\HP\Desktop\landingpage\projectpage\projects.html#card1" >Electric Go Kart</a></li>
+          <li><a class="link" href="C:\Users\HP\Desktop\landingpage\projectpage\projects.html#card2">Quad Torc</a></li>
+          <li><a class="link" href="C:\Users\HP\Desktop\landingpage\projectpage\projects.html#card3">E Tron</a></li>
+          <li><a class="link" href="C:\Users\HP\Desktop\landingpage\projectpage\projects.html#card4" >Go Kart</a></li>
+        </ul>
+      </li>
+      <li class="parent"><a class="link" href="C:\Users\HP\Desktop\landingpage\meet our team\meet our team\index.html">Our Team</a></li>
+
+      </li>
+      <li class="parent"><a class="link" href="C:\Users\HP\Desktop\landingpage\contact us\contact us\index.html">Contact us</a></li>
+    </ul>
+  </nav>
+
+  <script>
+var clients = document.getElementById('achievements');
+var services = document.getElementById('projects');
+
+
+achievements.addEventListener('click', function() {
+  $(achievements).toggleClass("active");
+  $(".parent:not(#achievements)").toggleClass("invisible");
+}, false);
+
+projects.addEventListener('click', function() {
+  $(projects).toggleClass("active");
+  $(".parent:not(#projects)").toggleClass("invisible");
+}, false);
+
+
+
+  </script>
+
+
+
+  <div class="timeline-header">
+    <h2 class="timeline-header__title"><Strong>Team Oorja</Strong></Strong></h2>
+    <h3 class="timeline-header__subtitle">This is how we do it</h3>
+  </div>
+  <div class="timeline">
+
+
+    <div class="timeline-item" id="kari" >
+      <div class="timeline__content"><img class="timeline__img" src='https://res.cloudinary.com/danefi6av/image/upload/v1692335480/landingpage/achivce/rj-timeline/dist/ikc-1_td4w5e.jpg'>
+        <h2 class="timeline__content-title">IKC 2023</h2>
+        <p class="timeline__content-desc"><strong>Venturing into the dynamic and rapidly evolving realm of electric vehicles, the team showcased their adaptability by achieving an impressive overall 3rd place in the EV category, a testament to their groundbreaking advancements and innovations. Furthermore, they garnered recognition for the Best Design Presentation, showcasing their ability to combine aesthetics and functionality seamlessly in their debut at the esteemed E-go-kart competition, solidifying their position in the realm of electric go-kart racing.</strong></p>
+      </div>
+    </div>
+
+
+
+    <div class="timeline-item" id="effi"  > 
+      <div class="timeline__content"><img class="timeline__img" src="https://res.cloudinary.com/danefi6av/image/upload/v1692567336/img/WhatsApp_Image_2023-08-20_at_3.51.56_PM_p6h3el.jpg"/>
+        <h2 class="timeline__content-title">GKDC 2019</h2>
+        <p class="timeline__content-desc">In 2018-2019 the team scaled and dominated the G.K.D.C- 2018 held at Buddh international 
+          Circuit (Greater Noida) with complete authority with over 192 teams participating from the 
+          starting day. 
+         <br> Overall Runner Up 
+         <br>Best Autocross 
+         <br> Best Driver 
+         <br>Best Business plan 
+         <br>Apart from these trophies, we also gained good positions in other events that didn’t involve a 
+          trophy or a prize but did play role while accumulating the marks for the final rankings.
+          <br>Cost report – 1st Position
+          <br>Endurance race – 3rd Position 
+          <br>Engineering design – 2nd Position
+          <br>Acceleration – 2nd Position overall, 1st in the final lineup
+          <br>Disassembly – 3rd prize.
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item" id="kari" >
+      <div class="timeline__content"><img class="timeline__img" src='https://res.cloudinary.com/danefi6av/image/upload/v1692567336/img/WhatsApp_Image_2023-08-20_at_3.51.57_PM_adhrep.jpg'>
+        <h2 class="timeline__content-title">GKDC 2018</h2>
+        <p class="timeline__content-desc"><strong>2017-2018 the team designed and
+          fabricated a Go-kart for G.K.D.C- 2018
+          held at Kari Motor Speedway
+          (Coimbatore) where teams participated
+          from all over the country. The team
+          performed well with being placed at an
+          all India rank of 27th out of over 190
+          teams and the fabricated vehicle had the
+          2
+          nd best acceleration in lineup.</strong></p>
+      </div>
+    </div>
+    
+    <div class="timeline-item" id="gkdc" >
+      <div class="timeline__content"><img class="timeline__img" src="https://res.cloudinary.com/danefi6av/image/upload/v1692335516/landingpage/achivce/rj-timeline/dist/ikc-3_xhm3gl.jpg"/>
+        <h2 class="timeline__content-title">2017-18</h2>
+        <p class="timeline__content-desc"><strong> In 2017-2018 the team designed and
+          fabricated a Go-kart for G.K.D.C- 2018
+          held at Kari Motor Speedway
+          (Coimbatore) where teams participated
+          from all over the country. The team
+          performed well with being placed at an
+          all India rank of 27
+          th out of over 190
+          teams and the fabricated vehicle had the
+          2
+          nd best acceleration in lineup. </strong>
+          </p>
+      </div>
+    </div>
+    <div class="timeline-item" >
+      <div class="timeline__content"><img class="timeline__img" src="https://res.cloudinary.com/danefi6av/image/upload/v1692570489/WhatsApp_Image_2023-08-21_at_3.57.36_AM_jntyq0.jpg">
+        <h2 class="timeline__content-title">2016</h2>
+        <p class="timeline__content-desc"><strong>The team started its venture with the EFFI Cars
+          electric competition (2016) where engineering
+          students from all over India fabricate their own
+          electric vehicles. The team designed and fabricated
+          their own solar electric passenger vehicle and won the
+          Best Design Award</strong> 
+         
+          
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<div class="footercontainer">
+  <h1>FOLLOW US</h1>
+  <div class="socialicons">
+      <a href="https://www.facebook.com/teamoorja/?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://instagram.com/team_oorja?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a> 
+      <a href="https://www.linkedin.com/company/team-oorja/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://youtube.com/@teamoorjathaparinstitute2761"><i class="fab fa-youtube"></i></a>
+  </div>
+</div>
+<div class="footerbottom">
+  <p>
+  Copyright © 2022  TEAM OORJA. All Rights Reserved.
+  <br>
+  Made with 💝 by TEAM OORJA
+  </p>
+</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

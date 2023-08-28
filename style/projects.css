@@ -1,0 +1,209 @@
+
+
+#project{
+  height: 100vh;
+  width: 100%;
+  background-image: url('./BANNER.png');
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.container {
+  display: flex;
+  background-color: black;
+  height: 80vh;
+  width: 400vh ;
+  margin: 0;
+  overflow: hidden;
+  padding-right: 30vh;
+  padding-left: 30vh;
+  margin-bottom: -2.3vh;
+}
+*{
+  margin: 0;
+  padding: 9;
+}
+
+.image-slider {
+  flex: 1;
+  height: 60vh; 
+  width: 80vh; 
+  overflow: hidden;
+  margin-top: 10vh;
+  border-radius: 100px;
+  margin-left: 0vh; 
+  border: solid white;
+  margin-right: 15vh;
+}
+
+.image-slider-alternate {
+  flex: 1;
+  height: 60vh; 
+  width: 80vh; 
+  overflow: hidden;
+  margin-top: 10vh;
+  border-radius: 100px;
+  margin-left: 15vh; 
+  border: solid white;
+  margin-right: 0vh;
+}
+.image-slider img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+  overflow:visible;
+}
+
+.text-paragraph h1{
+  margin-bottom: 5vh;
+  font-size: 70px;
+}
+.text-paragraph  {
+  flex: 1;
+  width: 80%;
+  text-align: center;
+  color:white;
+  font-size: 19px;
+  vertical-align: middle;
+  margin-top: 20vh;
+  margin-left: 20vh;
+}
+
+.text-paragraph-alternate  {
+  flex: 1;
+  width: 80%;
+  text-align: center;
+  color:white;
+  font-size: 19px;
+  vertical-align: middle;
+  margin-top: 20vh;
+  margin-left: 0vh;
+}
+  
+ .footer {
+    background-color: #111;
+    border:#fff;
+    border-radius: 10px;
+    
+  }
+  
+  .footercontainer {
+    width: auto;
+    padding: 70px 30px 20px;
+    text-align: center;
+    background-color: rgba(18, 19, 26, 0.95);
+    opacity: 0.96;
+   
+    
+  }
+  
+  .socialicons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .socialicons a i {
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+  }
+  
+  .socialicons a:hover i {
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .footerbottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  
+  .footerbottom pre {
+    color: white;
+  }
+
+  @media  (max-width: 600px) {
+    #project {
+      width: 100%;
+      height: 35vh;
+      background-image: url('./BANNER.png');
+      z-index: 1;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+   
+    .image-slider {
+      flex: 1;
+      height: 40vh; 
+      width: 100vh; 
+      overflow: hidden;
+      margin-top: 10vh;
+      border-radius: 150px;
+      margin-left: 5vh; 
+      border: solid white;
+      margin-right: 5vh;
+    }
+
+
+    .image-slider img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; 
+    }
+
+
+    .text-paragraph h1{
+      margin-bottom: 5vh;
+      font-size: 35px;
+      
+    }
+
+    .text-paragraph  {
+      flex: 1;
+      width: 40%;
+      text-align: center;
+      color:white;
+      font-size: 15px;
+      vertical-align: middle;
+      margin-top: 10vh;
+      margin-left: 5vh;
+      margin-right: 5vh;
+      margin-bottom: -20vh;
+      padding-bottom: -20vh;
+    }
+
+    .container {
+      display: flex;
+      background-color: black;
+      height: 60vh;
+      width: 100% ;
+      margin-bottom: -1.3vh;
+      
+    }
+
+
+  }
+
+
+
+#electric{
+  font-size: 40px;
+ 
+  margin-top: -10px;
+}
