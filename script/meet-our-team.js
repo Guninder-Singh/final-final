@@ -239,3 +239,14 @@ window.addEventListener("load", event => {
 
     /* end */
 });
+
+
+
+
+
+var swiper = new Swiper('.swiper-container', {
+      autoplay: {
+         delay: 7000, // Set the delay between slides in milliseconds (5 seconds in this case)
+      },
+      // Other Swiper options...
+   });
