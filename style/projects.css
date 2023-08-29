@@ -14,10 +14,10 @@
   display: flex;
   background-color: black;
   height: 80vh;
-  width: 400vh ;
+  width: 10% ;
   margin: 0;
   overflow: hidden;
-  padding-right: 30vh;
+  padding-right: 29vh;
   padding-left: 30vh;
   margin-bottom: -2.3vh;
 }
