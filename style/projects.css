@@ -4,7 +4,7 @@ body{
 
 #project{
   height: 100vh;
-  max-width: 100%;
+  min-width: 100%;
   background-image: url('https://res.cloudinary.com/danefi6av/image/upload/v1692335668/landingpage/projectpage/BANNER_wbxzqc.png');
   z-index: 1;
   background-repeat: no-repeat;
