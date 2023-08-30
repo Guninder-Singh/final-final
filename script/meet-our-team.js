@@ -6,7 +6,26 @@ window.addEventListener("load", event => {
     var swiperWrapper = document.querySelector('.swiper-wrapper');
 
     /* The Team */
-    var team = [{
+    var team = [
+        {
+            name: "Rajveer Singh",
+            role: "VICE CAPTAIN",
+            role1: "Brakes & Tyre Head",
+            desc: "When something is important enough, you do it even if the odds are not in your favour.",
+            photo: "https://res.cloudinary.com/danefi6av/image/upload/v1692335629/landingpage/meet%20our%20team/meet%20our%20team/rajveer_hwzxqs.jpg",
+            linkedin: "https://www.linkedin.com/in/rajveer-singh-1459091a7/",
+            instagram: "https://instagram.com/rajveer.017?igshid=MzRlODBiNWFlZA=="
+        },
+        {
+            name: "Rajveer Singh",
+            role: "VICE CAPTAIN",
+            role1: "Brakes & Tyre Head",
+            desc: "When something is important enough, you do it even if the odds are not in your favour.",
+            photo: "https://res.cloudinary.com/danefi6av/image/upload/v1692335629/landingpage/meet%20our%20team/meet%20our%20team/rajveer_hwzxqs.jpg",
+            linkedin: "https://www.linkedin.com/in/rajveer-singh-1459091a7/",
+            instagram: "https://instagram.com/rajveer.017?igshid=MzRlODBiNWFlZA=="
+        },
+        {
             name: "Kartikeya Joshi",
             role: "TEAM CAPTAIN",
             role1: "Chassis Head",
