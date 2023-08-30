@@ -10,6 +10,7 @@ window.addEventListener("load", event => {
         {
             name: "Dr. Gagandeep Kaur",
             role: "President",
+            role1: " ",
             desc: "Let's unite, strive, and conquer every challenge as one unstoppable team.",
             photo: "https://res.cloudinary.com/danefi6av/image/upload/v1693423523/WhatsApp_Image_2023-08-31_at_12.53.53_AM_gbdj9z.jpg",
           
