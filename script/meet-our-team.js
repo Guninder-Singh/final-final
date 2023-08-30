@@ -8,11 +8,11 @@ window.addEventListener("load", event => {
     /* The Team */
     var team = [
         {
-            name: "Rajveer Singh",
-            role: "VICE CAPTAIN",
+            name: "Dr. Gagandeep Kaur",
+            role: "President",
             role1: "Brakes & Tyre Head",
             desc: "When something is important enough, you do it even if the odds are not in your favour.",
-            photo: "https://res.cloudinary.com/danefi6av/image/upload/v1692335629/landingpage/meet%20our%20team/meet%20our%20team/rajveer_hwzxqs.jpg",
+            photo: "https://res.cloudinary.com/danefi6av/image/upload/v1693423523/WhatsApp_Image_2023-08-31_at_12.53.53_AM_gbdj9z.jpg",
             linkedin: "https://www.linkedin.com/in/rajveer-singh-1459091a7/",
             instagram: "https://instagram.com/rajveer.017?igshid=MzRlODBiNWFlZA=="
         },
