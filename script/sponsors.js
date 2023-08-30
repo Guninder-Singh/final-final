@@ -1,4 +1,5 @@
- var swiper = new Swiper('.swiper-container', {
+
+var swiper = new Swiper('.swiper-container', {
     effect: 'cube',
     grabCursor: true,
     autoplay: {
