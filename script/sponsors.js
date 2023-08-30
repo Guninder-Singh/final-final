@@ -1,4 +1,4 @@
-
+import Swiper from "https://unpkg.com/swiper/swiper-bundle.min.js"
 var swiper = new Swiper('.swiper-container', {
     effect: 'cube',
     grabCursor: true,
