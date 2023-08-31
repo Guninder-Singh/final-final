@@ -118,6 +118,14 @@ color: white;
 }
 
 
+@keyframes backgroundSlideshow {
+  0% { opacity: 0;}
+  12.5% { opacity: 1;}
+  25% { opacity: 1;}
+  37.5% { opacity: 0;}
+  100% { opacity: 0;} 
+}
+
 .slideshow-1{
   height: 100vh;
 }
@@ -391,12 +399,4 @@ Navigation
 .overlay-slide-up {
   transition: all .8s ease-in-out;
   transform: translateY(-100%)
-}
-
-@keyframes backgroundSlideshow {
-  0% { opacity: 0;}
-  12.5% { opacity: 1;}
-  25% { opacity: 1;}
-  37.5% { opacity: 0;}
-  100% { opacity: 0;} 
 }
