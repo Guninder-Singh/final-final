@@ -1,4 +1,4 @@
-var clients = document.getElementById('achievements');
+/*var clients = document.getElementById('achievements');
 var services = document.getElementById('projects');
 
 
@@ -19,4 +19,4 @@ function myFunction() {
   } else {
     x.style.display = "block";
   }
-}
+}*/
