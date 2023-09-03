@@ -46,6 +46,116 @@ color: white;
   width: 500px;
   z-index: 998;
 }
+/* Import fonts and common CSS reset */
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Open+Sans:400italic,300italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common styles for all screen sizes */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Styles for the slider page */
+#slider-page {
+  height: 90vh;
+  width: 100%;
+  background-image: radial-gradient(circle, rgba(3, 43, 67, 1) 15%, rgba(0, 0, 0, 1) 100%);
+  position: relative;
+}
+
+#slider-page p {
+  font-size: 20px;
+  width: 70%;
+  margin-left: 280px;
+  padding-top: 70px;
+  margin-bottom: -50px;
+  text-align: center;
+  color: white;
+}
+
+.items {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  width: 500px;
+  z-index: 998;
+}
+
+/* Add more common styles for .items here */
+
+/* Media Query for screens up to 480px (e.g., mobile devices) */
+@media only screen and (max-width: 480px) {
+  /* Styles for screens up to 480px */
+
+  #slider-page {
+    max-height: 60vh;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  #slider-page p {
+    font-size: 10px;
+    width: 50%;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 120px;
+  }
+
+  .items {
+    position: relative;
+    margin-bottom: -40px;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    width: 150px;
+    z-index: 998;
+    margin-top: 20px;
+    margin-left: -370px;
+  }
+
+  /* Add more styles for screens up to 480px here */
+
+  /* Footer styles for screens up to 480px */
+  .footercontainer {
+    max-width: 480px;
+    padding: 50px 20px 10px;
+    text-align: center;
+    background-color: rgba(18, 19, 26, 0.95);
+    opacity: 0.96;
+    z-index: 100;
+    margin-bottom: 20px;
+  }
+
+  /* Add more styles for the footer for screens up to 480px here */
+}
+
+/* Media Query for screens up to 768px (e.g., iPads and tablets) */
+@media only screen and (max-width: 768px) {
+  /* Styles for screens up to 768px */
+
+  /* Modify existing styles or add new styles here for iPads and tablets */
+}
+
+/* Media Query for screens larger than 768px (e.g., larger tablets and desktops) */
+@media only screen and (min-width: 769px) {
+  /* Styles for screens larger than 768px */
+
+  /* Modify existing styles or add new styles here for larger screens */
+}
+
 
 .items .item {
   position: absolute;
@@ -252,6 +362,7 @@ margin-left:120px;
   background-color: rgba(18, 19, 26, 0.95);
   opacity: 0.96;
  z-index: 100;
+ margin-bottom: 20px;
   
 }
 
@@ -400,3 +511,77 @@ Navigation
   transition: all .8s ease-in-out;
   transform: translateY(-100%)
 }
+/* Basic styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Media query for small screens (phones) */
+/* Basic styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+.menu-toggle {
+  display: none; /* Hide the menu toggle icon by default */
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Media query for small screens (phones) */
+
+
+
