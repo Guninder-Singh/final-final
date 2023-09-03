@@ -710,3 +710,66 @@ cursor: pointer;
 background-color: cadetblue;
 
 }
+/* Basic styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+.menu-toggle {
+  display: none; /* Hide the menu toggle icon by default */
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Media query for small screens (phones) */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+      display: block; /* Show the menu toggle icon */
+  }
+
+  .nav-links {
+      display: none; /* Hide the navigation links */
+      flex-direction: column;
+      position: absolute;
+      top: 60px; /* Adjust the top position to your preference */
+      left: 0;
+      background-color: #333;
+      width: 100%;
+      z-index: 1; /* Ensure the dropdown is on top of other content */
+  }
+
+  .nav-links.active {
+      display: flex; /* Show the navigation links when active */
+  }
+
+  .nav-links li {
+      margin: 10px 0; /* Adjust spacing between dropdown items */
+  }
+}
