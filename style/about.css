@@ -65,7 +65,7 @@ align-items: center;
     margin-left: -8vh;
 }
 .about-us-section .text-head{
-    font-size: 40px;
+    font-size: 20px;
     color: #33bec8;
     width: 100%;
    
@@ -211,6 +211,53 @@ align-items: center;
    border-radius:50px;
 
 }
+/* Base styles for larger screens */
 
+/* Media query for screens smaller than 768px */
+/* Media query for screens smaller than 768px */
+/* Media query for screens smaller than 768px */
+/* Media query for screens smaller than 768px */
+/* Media query for screens smaller than 768px */
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .about-us-section .container {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+        text-align: center; /* Center text content */
+        height: auto; /* Let the content determine the height */
+        padding: 20px; /* Add some padding for better spacing */
+    }
 
+    .about-us-section .img-head {
+        width: 100%; /* Make the image full width */
+        margin: 0; /* Remove margin for the image */
+    }
+
+    .about-us-section .text-head {
+        font-size: 10px; /* Decrease font size */
+    }
+
+    .about-us-section .text-para {
+        font-size: 16px; /* Decrease font size */
+        margin: 10px 0; /* Add space between paragraphs */
+    }
+
+    /* Add margin to create space below the boxes */
+    .about-us-section #icons {
+        margin-top: 10px;
+    }
+
+    .about-us-section .col-12.col-md-4 {
+        width: 100%; /* Make the boxes full width on smaller screens */
+        margin: 10px 0; /* Add space around each box */
+    }
 }
+
+/* Ensure there is space below the footer */
+
+
+
+
+
+
+
+
