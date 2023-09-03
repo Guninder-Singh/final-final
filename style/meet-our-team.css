@@ -45,6 +45,41 @@ img:focus {
 div {
   -webkit-tap-highlight-color: transparent;
 }
+/* Common CSS rules for all screen sizes */
+
+/* Mobile First Approach */
+.wrapper .module-team .team .team-cards .swiper-container {
+  max-width: 280px;
+  height: 370px;
+  padding: 0 20px;
+  overflow: visible;
+}
+
+/* Add more common styles here */
+
+/* Media Query for Tablets and Larger Screens */
+@media screen and (min-width: 800px) {
+  /* Update styles for tablets and larger screens */
+
+  /* Example: Increase font size for titles */
+  .wrapper .module-team .team .team .title {
+    font-size: 40px;
+  }
+
+  /* Add more styles for tablets and larger screens here */
+}
+
+/* Media Query for Small Desktops and Larger Screens */
+@media screen and (min-width: 1200px) {
+  /* Update styles for small desktops and larger screens */
+
+  /* Example: Increase font size for titles further */
+  .wrapper .module-team .team .team .title {
+    font-size: 60px;
+  }
+
+  /* Add more styles for small desktops and larger screens here */
+}
 
 body {
   margin: 0;
