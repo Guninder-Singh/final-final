@@ -35,6 +35,7 @@ align-items: center;
 .about-us-section .img-head{
     position: relative;
     overflow:hidden ;
+    display:flex;
     width: 600px;
     margin-right: 75px;
     margin-left: 200px;
@@ -173,7 +174,7 @@ align-items: center;
     height: 80vh;
     display: flex;
     background-color: #1b1b1b;
-    margin-left: -50vh;
+    margin-left: 50vh;
 }
 
 .about-us-section .box::after{
