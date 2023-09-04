@@ -36,7 +36,7 @@ align-items: center;
     overflow:hidden ;
     width: 600px;
     margin-right: 75px;
-    margin-left: -200px;
+    margin-left: 200px;
 }
 .about-us-section .img-head img{
     width: 100vh;
