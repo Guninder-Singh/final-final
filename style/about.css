@@ -33,9 +33,9 @@ align-items: center;
 }
 
 .about-us-section .img-head{
-    position: relative;
+
     overflow:hidden ;
-    display:flex;
+    display: flex;
     width: 600px;
     margin-right: 75px;
     margin-left: 200px;
