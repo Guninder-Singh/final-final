@@ -151,8 +151,8 @@ a {
 }
 
 .nav__link {
-  color: var(--white-color);
-  background-color: var(--black-color);
+  color: #c9d1d9;
+  background-color: hsl(220deg 24% 12% / 0%);
   font-weight: var(--font-semi-bold);
   padding: 1.25rem 1.5rem;
   display: flex;
@@ -277,9 +277,12 @@ a {
   }
   .nav__link {
     height: 100%;
-    padding: 0;
+    padding: 2px;
+    margin: 5px;
     justify-content: initial;
-    column-gap: .25rem;
+    font-size: initial;
+    font-family: sans-serif;
+    column-gap: 1.25rem;
   }
   .nav__link:hover {
     background-color: transparent;
