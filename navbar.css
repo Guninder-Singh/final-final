@@ -95,7 +95,7 @@ a {
 .nav__logo {
   display: inline-flex;
   align-items: center;
-  column-gap: .25rem;
+  column-gap: 0.5rem;
   font-weight: var(--font-semi-bold);
   /* Color highlighting when pressed on mobile devices */
   /*-webkit-tap-highlight-color: transparent;*/
@@ -110,6 +110,7 @@ a {
   position: relative;
   width: 32px;
   height: 32px;
+  margin-left: -184px;
 }
 
 .nav__burger, 
@@ -151,8 +152,8 @@ a {
 }
 
 .nav__link {
-  color: #c9d1d9;
-  background-color: hsl(220deg 24% 12% / 0%);
+  color: var(--white-color);
+  background-color: var(--black-color);
   font-weight: var(--font-semi-bold);
   padding: 1.25rem 1.5rem;
   display: flex;
@@ -277,12 +278,9 @@ a {
   }
   .nav__link {
     height: 100%;
-    padding: 2px;
-    margin: 5px;
+    padding: 0;
     justify-content: initial;
-    font-size: initial;
-    font-family: sans-serif;
-    column-gap: 1.25rem;
+    column-gap: .25rem;
   }
   .nav__link:hover {
     background-color: transparent;
