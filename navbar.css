@@ -37,8 +37,8 @@
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
@@ -66,7 +66,7 @@ a {
 /*=============== HEADER ===============*/
 .header {
   position: fixed;
-  top: 0;
+  
   left: 0;
   width: 100%;
   background-color: var(--black-color);
@@ -76,7 +76,7 @@ a {
 
 /*=============== NAV ===============*/
 .nav {
-  height: var(--header-height);
+  height: 100%;
 }
 
 .nav__logo, 
@@ -148,18 +148,21 @@ a {
   .nav__list {
     background-color: var(--black-color);
     padding-top: 1rem;
+    height: 100%;
   }
 }
 
 .nav__link {
   color: var(--white-color);
-  background-color: var(--black-color);
+  background-color: transparent;
   font-weight: var(--font-semi-bold);
   padding: 1.25rem 1.5rem;
-  display: flex;
+  display: contents;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
+  margin-top: 5px;
   transition: background-color .3s;
+  font-size: 20px;
 }
 
 .nav__link:hover {
@@ -186,12 +189,12 @@ a {
 /*=============== DROPDOWN ===============*/
 .dropdown__item {
   cursor: pointer;
+  width: max-content;
 }
 
 .dropdown__arrow {
   font-size: 1.25rem;
-  font-weight: initial;
-  transition: transform .4s;
+  font-weight: bold;
 }
 
 .dropdown__link, 
@@ -274,13 +277,16 @@ a {
   .nav__list {
     height: 100%;
     display: flex;
-    column-gap: 3rem;
+    column-gap: 4rem;
+    margin-top: 9%;
+    text-align: center;
   }
   .nav__link {
     height: 100%;
+    width: 164%;
     padding: 0;
-    justify-content: initial;
-    column-gap: .25rem;
+    justify-content: center;
+    column-gap: -1.75rem;
   }
   .nav__link:hover {
     background-color: transparent;
