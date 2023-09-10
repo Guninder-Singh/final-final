@@ -79,7 +79,7 @@ margin-top: -17px;
     font-size: 40px;
     color: #33bec8;
     width: 100%;
-    margin-left: -10%;
+    margin-left: 12%;
 }
 
 
@@ -87,15 +87,15 @@ margin-top: -17px;
 .about-us-section .text-para{
     font-size: 20px;
     color: #fff;
-    margin-top: 30px;
-    text-align: start;
-    margin-left: -20%;
-    margin-right: 20%;
+    margin-top: 33px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 7%;
 }
 #link{
     height: 14vh;
     width: 23vh;
-    margin-left: 25%;
+    margin-left: 63%;
     font-size: 17px;
 }
 
@@ -115,7 +115,7 @@ margin-top: -13px;
     height: 14vh;
     font-size: 21px;
     width: 23vh;
-    margin-left: 25%;
+    margin-left: 63%;
     /* margin-right:20px; */
 }
  #members a{
@@ -132,7 +132,7 @@ margin-top: -13px;
     margin-right: 48px;
     height: 14vh;
     font-size: 17px;
-    margin-left: 25%;
+    margin-left: 63%;
 }
 #found a{
 
@@ -186,7 +186,7 @@ margin-top: -11px;
     width: 50%;
     height: 80vh;
     display: flex;
-    background-color: #1b1b1b;
+    background-color: #1b1b1b00;
     margin-left: 50vh;
 }
 
