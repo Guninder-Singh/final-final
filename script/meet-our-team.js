@@ -187,6 +187,10 @@ window.addEventListener("load", event => {
         slidesPerView: 3,
         spaceBetween: 40,
         threshold: 5,
+        autoplay: {
+            delay: 5000, // Delay in milliseconds between slides (adjust as needed)
+            disableOnInteraction: false, // Prevent autoplay from stopping when user interacts
+        },
 
 
         // If we need pagination
