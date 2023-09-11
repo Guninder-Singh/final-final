@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/style/contact-us.css">
 <script src="/script/contact-us.js"></script>
   <script src="/script/navabar.js"></script>
+  <link rel="stylesheet" href="/navbar.css">
+    <script src="/script.js"></script>
     
 </head>
 
@@ -23,59 +25,86 @@
 
     
   <div  class="main-content">
-     <nav class="navigationWrapper">
-    <div class="logoWrapper">
-      <span class="stylish"><a href="/index.html"><img src="https://res.cloudinary.com/danefi6av/image/upload/v1692335632/landingpage/navbar-0/nav%20bar2/nav%20bar/WhatsApp_Image_2023-07-08_at_12.38.37_vojclc.jpg" img alt="team oorja"
-          id="image"></a></span>
+    <nav class="nav container">
+      <div class="logoWrapper">
+         <span class="stylish"><a href="/index.html"><img src="https://res.cloudinary.com/danefi6av/image/upload/v1692335632/landingpage/navbar-0/nav%20bar2/nav%20bar/WhatsApp_Image_2023-07-08_at_12.38.37_vojclc.jpg" img alt="team oorja" id="image"></a></span>
+      </div>
+      <!--=============== NAV ===============-->
+      <div class="nav">
+         <div class="nav__data">
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line nav__burger"></i>
+               <i class="ri-close-line nav__close"></i>
+            </div>
+      </div>
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+         <ul class="nav__list">
+            <li><a class="nav__link" href="/index.html">Home</a></li>
+            <li><a class="nav__link" href="/index.html#aboutt">About Us</a></li>
+            <!--=============== DROPDOWN 1 ===============-->
+            <li class="dropdown__item">
+               <div class="nav__link">
+                  Achievements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+               </div>
+               <ul class="dropdown__menu">
+                  <li>
+                     <a href="/files/achieve.html#kari" class="dropdown__link">
+                        <i class="ri-arrow-up-down-line"></i> Year 2023
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/files/achieve.html#effi" class="dropdown__link">
+                        <i class="ri-arrow-up-down-line"></i> Year 2018-19
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/files/achieve.html#eighteen" class="dropdown__link">
+                        <i class="ri-arrow-up-down-line"></i> Year 2017-18
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/files/achieve.html#seventeen" class="dropdown__link">
+                        <i class="ri-arrow-up-down-line"></i> Year 2016
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <!--=============== DROPDOWN 2 ===============-->
+            <li class="dropdown__item">
+               <div class="nav__link">
+                  Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+               </div>
+               <ul class="dropdown__menu">
+                  <li>
+                     <a href="/files/projects.html#Electric-go-kart" class="dropdown__link">
+                        <i class="ri-arrow-up-down-line"></i> Electric Go-Kart
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/files/projects.html#quad-torc"" class="dropdown__link">
+                        <i class="ri-arrow-up-down-line"></i> Quad Torc
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/files/projects.html#go-kart" class="dropdown__link">
+                        <i class="ri-arrow-up-down-line"></i> IC Go-Kart
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/files/projects.html#e-tron" class="dropdown__link">
+                        <i class="ri-arrow-up-down-line"></i>e-Tron
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li><a href="/files/meet-our-team.html" class="nav__link">Meet Our Team</a></li>
+            <li><a href="/files/contact-us.html" class="nav__link">Contact Us</a></li>
+         </ul>
+      </div>
+   </nav>
 
-    </div>
-    <ul class="navigation">
-      <li class="parent"><a class="link" href="/index.html">Home</a></li>
-      <li class="parent"><a class="link" href="/index.html#aboutt">About us</a></li>
-      <li class="parent" id="achievements">
-        <a class="link" href="#"><i class="fas fa-minus"></i> Achievements <i class="fas fa-plus"></i></a>
-        <ul class="subnavigation">
-          <li><a class="link" href="/files/achieve.html#kari">Year 2023</a></li>
-          <li><a class="link" href="/files/achieve.html#effi">Year 2018-19</a></li>
-          <li><a class="link" href="/files/achieve.html#eighteen">Year 2017-18</a></li>
-            <li><a class="link" href="/files/achieve.html#seventeen">Year 2016</a></li>
-        </ul>
-      </li>
-      <li class="parent" id="projects">
-        <a class="link" href="#"><i class="fas fa-minus"></i> Projects <i class="fas fa-plus"></i></a>
-        <ul class="subnavigation">
-         <<li><a class="link" href="/files/projects.html#Electric-go-kart" >Electric Go Kart</a></li>
-          <li><a class="link" href="/files/projects.html#quad-torc">Quad Torc</a></li>
-          <li><a class="link" href="/files/projects.html#e-tron">E Tron</a></li>
-          <li><a class="link" href="/files/projects.html#go-kart" >Go Kart</a></li>
-        </ul>
-      </li>
-      <li class="parent"><a class="link" href="/files/meet-our-team.html">Our Team</a></li>
-
-      </li>
-      <li class="parent"><a class="link" href="/files/contact-us.html">Contact us</a></li>
-    </ul>
-
-
-    
-  </nav>
-
-      <script >
-          
-          var clients = document.getElementById('achievements');
-var services = document.getElementById('projects');
-
-
-achievements.addEventListener('click', function() {
- $(achievements).toggleClass("active");
- $(".parent:not(#achievements)").toggleClass("invisible");
-}, false);
-
-projects.addEventListener('click', function() {
- $(projects).toggleClass("active");
- $(".parent:not(#projects)").toggleClass("invisible");
-}, false);
-      </script>
+      
     
   </div>
   
