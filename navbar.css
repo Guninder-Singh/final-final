@@ -199,30 +199,33 @@ a {
 
 .dropdown__link, 
 .dropdown__sublink {
-  padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+  padding: 1.25rem 1.25rem 2.05rem 1.25rem;
+  margin-top: 0.015rem;
   color: var(--white-color);
-  background-color: var(--black-color-light);
+  background-color: #090f16;
   display: flex;
   align-items: center;
-  column-gap: .5rem;
+  column-gap: 2.5rem;
   font-weight: var(--font-semi-bold);
+  font-size: 1.2rem;
   transition: background-color .3s;
 }
 
 .dropdown__link i, 
 .dropdown__sublink i {
-  font-size: 1.25rem;
+  font-size: 1.55rem;
   font-weight: initial;
 }
 
 .dropdown__link:hover, 
 .dropdown__sublink:hover {
   background-color: var(--black-color);
+  scale: 1.05;
 }
 
 .dropdown__menu, 
 .dropdown__submenu {
-  max-height: 0;
+  max-height: 10px;
   overflow: hidden;
   transition: max-height .4s ease-out;
 }
