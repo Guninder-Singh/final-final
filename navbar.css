@@ -94,7 +94,7 @@ a {
 
 .nav__logo {
   display: inline-flex;
-  align-items: center;
+  align-items: left;
   column-gap: 0.5rem;
   font-weight: var(--font-semi-bold);
   /* Color highlighting when pressed on mobile devices */
