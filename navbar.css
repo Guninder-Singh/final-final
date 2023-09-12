@@ -146,6 +146,7 @@ a {
   width: max-content;
   height: max-content;
   inset: 0;
+  z-index:999;
   margin: auto;
   font-size: 1.25rem;
   cursor: pointer;
@@ -176,6 +177,7 @@ a {
   .nav__list {
     background-color: var(--black-color);
     padding-top: 1rem;
+    z-index:999;
     height: 100%;
   }
 
@@ -188,6 +190,7 @@ a {
   color: var(--white-color);
   background-color: transparent;
   font-weight: var(--font-semi-bold);
+  z-index:999;
   padding: 2rem 1.5rem;
   z-index:999;
   display: contents;
@@ -207,6 +210,7 @@ a {
   z-index:999;
   opacity: 1;
   top: 3.5rem;
+  z-index:999;
   pointer-events: initial;
 }
 
@@ -214,6 +218,7 @@ a {
 .show-icon .nav__burger {
   opacity: 0;
   transform: rotate(90deg);
+  z-index:999;
 }
 .show-icon .nav__close {
   opacity: 1;
@@ -223,11 +228,13 @@ a {
 /*=============== DROPDOWN ===============*/
 .dropdown__item {
   cursor: pointer;
+  z-index:999;
   width: max-content;
 }
 
 .dropdown__arrow {
   font-size: 1.25rem;
+  z-index:999;
   font-weight: bold;
 }
 
