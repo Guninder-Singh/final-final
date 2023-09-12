@@ -18,7 +18,7 @@
   padding-right:-38vh;
   padding-left:-25.5vh;
   margin-left:-26vh
-  margin: 0;
+  margin-right: -25vh;
   
 
   margin-bottom: -2.3vh;
@@ -33,11 +33,11 @@
   height: 60vh; 
   width: 80vh; 
   overflow: hidden;
-  margin-top: 10vh;
+  margin-top: 5vh;
   border-radius: 100px;
-  margin-left: 0vh; 
+
   border: solid white;
-  margin-right: 13vh;
+
 }
 
 .image-slider-alternate {
@@ -47,9 +47,9 @@
   overflow: hidden;
   margin-top: 10vh;
   border-radius: 100px;
-  margin-left: 15vh; 
+  margin-left: 10vh; 
   border: solid white;
-  margin-right: 0vh;
+  
 }
 .image-slider img {
   height: 100%;
@@ -70,7 +70,7 @@
   font-size: 19px;
   vertical-align: middle;
   margin-top: 20vh;
-  margin-left: 20vh;
+  margin-left: 10vh;
 }
 
 .text-paragraph-alternate  {
