@@ -64,17 +64,20 @@ margin-top: -30px;
   padding: 0px;
   margin: 0px;
   background-size: cover;
+ z-index:999;
   background-color: transparent;
 }
 
 body {
   font-family: var(--body-font);
+  z-index:999;
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
 }
 
 ul {
   list-style: none;
+  z-index:999;
   /* Color highlighting when pressed on mobile devices */
   /*-webkit-tap-highlight-color: transparent;*/
 }
@@ -86,18 +89,19 @@ a {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 100%;
+ 
  z-index:999;
 }
 
 /*=============== HEADER ===============*/
 .header {
   position: fixed;
-  
+   z-index:999;
   left: 0;
   width: 100%;
   background-color: var(--black-color);
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
-  z-index: var(--z-fixed);
+
 }
 
 /*=============== NAV ===============*/
@@ -109,6 +113,7 @@ a {
 .nav__burger, 
 .nav__close {
   color: var(--white-color);
+  z-index:999;
 }
 
 .nav__data {
@@ -124,6 +129,7 @@ a {
   align-items: left;
   column-gap: 0.5rem;
   font-weight: var(--font-semi-bold);
+  z-index:999;
   /* Color highlighting when pressed on mobile devices */
   /*-webkit-tap-highlight-color: transparent;*/
 }
@@ -131,11 +137,13 @@ a {
 .nav__logo i {
   font-weight: initial;
   font-size: 1.25rem;
+  z-index:999;
 }
 
 .nav__toggle {
   position: relative;
   width: 32px;
+  z-index:999;
   height: 32px;
   margin-left: -184px;
 }
@@ -203,6 +211,7 @@ a {
 
 .nav__link:hover {
   background-color: var(--black-color-light);
+  z-index:999;
 }
 
 /* Show menu */
