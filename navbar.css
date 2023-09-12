@@ -257,6 +257,7 @@ a {
 .dropdown__sublink i {
   font-size: 1.55rem;
   font-weight: initial;
+  z-index:999;
 }
 
 .dropdown__link:hover, 
@@ -269,6 +270,7 @@ a {
 .dropdown__menu, 
 .dropdown__submenu {
   max-height: 10px;
+  z-index:999;
   overflow: hidden;
   transition: max-height .4s ease-out;
 }
@@ -278,6 +280,7 @@ a {
 .dropdown__subitem:hover > .dropdown__submenu {
   max-height: 1000px;
   transition: max-height .4s ease-in;
+  z-index:999;
 }
 
 /* Rotate dropdown icon */
