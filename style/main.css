@@ -624,7 +624,7 @@ html, body {
   left: 30%;
   transform: translate(-50%, -50%);
   user-select: none;
-  width: 500px;
+  width: 200px;
   z-index: 998;
 }
 #myVideo {
