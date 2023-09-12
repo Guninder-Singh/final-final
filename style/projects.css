@@ -1,4 +1,6 @@
-
+body{
+  width:100%;
+}
 
 #project{
   height: 100vh;
@@ -14,12 +16,11 @@
   
   background-color: black;
   height: 80vh;
-  max-width: 100%;
+  min-width: 100%;
   padding-right:-38vh;
   padding-left:-25.5vh;
-  margin-left:-26vh
-  margin-right: -25vh;
-  
+
+  margin:0;
 
   margin-bottom: -2.3vh;
 }
