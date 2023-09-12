@@ -36,7 +36,7 @@ body{
   overflow: hidden;
   margin-top: 5vh;
   border-radius: 100px;
-
+margin:0;
   border: solid white;
 
 }
@@ -48,7 +48,7 @@ body{
   overflow: hidden;
   margin-top: 10vh;
   border-radius: 100px;
-  margin-left: 10vh; 
+ margin:0;
   border: solid white;
   
 }
@@ -70,8 +70,7 @@ body{
   color:white;
   font-size: 19px;
   vertical-align: middle;
-  margin-top: 20vh;
-  margin-left: 10vh;
+margin:0;
 }
 
 .text-paragraph-alternate  {
