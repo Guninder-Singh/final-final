@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   max-width: 1000px;
-  z-index: 2;
+  z-index: -1;
   position: relative;
 }
 .timeline__content-title {
@@ -137,14 +137,12 @@
 .timeline-header {
   width: 100%;
   text-align: center;
-  z-index:1;
   margin-bottom: 80px;
   position: relative;
 }
 .timeline-header__title {
   color: #fff;
   font-size: 150px;
-    z-index:1;
   font-family: inherit;
   font-weight: normal;
   margin: 0;
@@ -178,7 +176,6 @@
   .timeline-header__title {
     color: #fff;
     font-size: 90px;
-      z-index:1;
     font-family: inherit;
     font-weight: normal;
     margin: 0;
