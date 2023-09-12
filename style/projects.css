@@ -1,7 +1,4 @@
-body{
-  width:100%;
-  overflow:hidden;
-}
+
 
 #project{
   height: 100vh;
@@ -17,11 +14,10 @@ body{
   display: flex;
   background-color: black;
   height: 80vh;
-  width: 100%;
+  max-width: 100%;
   margin: 0;
   overflow: hidden;
-margin-left:0;
-  margin-right:0;
+
   margin-bottom: -2.3vh;
 }
 *{
