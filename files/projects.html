@@ -101,6 +101,79 @@
     </div>
  </nav>
 
+<div class="container">
+  <div class="slider-container">
+    <div class="slider">
+      <img src="https://res.cloudinary.com/danefi6av/image/upload/v1692567724/img/WhatsApp_Image_2023-08-20_at_3.53.44_PM_o2yuxj.jpg" alt="Slide 1">
+      <img src="https://res.cloudinary.com/danefi6av/image/upload/v1692567843/img/IMG_3275_h8atgc.jpg" alt="Slide 2">
+      <img src="https://res.cloudinary.com/danefi6av/image/upload/v1692567336/img/WhatsApp_Image_2023-08-20_at_3.51.57_PM_adhrep.jpg" alt="Slide 3">
+    </div>
+  </div>
+  <div class="text-container">
+    <h1>Project name</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut diam vel elit dapibus tincidunt ac non ligula. Suspendisse euismod, tortor a ultricies malesuada, urna ex ullamcorper nunc, et finibus risus tellus vitae tortor. Ut laoreet metus id ex tempus, ac auctor tortor aliquam.</p>
+  </div>
+</div>
+
+<div class="container">
+    <div class="slider-container">
+      <div class="slider">
+        <img src="https://res.cloudinary.com/danefi6av/image/upload/v1692567724/img/WhatsApp_Image_2023-08-20_at_3.53.44_PM_o2yuxj.jpg" alt="Slide 1">
+        <img src="https://res.cloudinary.com/danefi6av/image/upload/v1692567843/img/IMG_3275_h8atgc.jpg" alt="Slide 2">
+        <img src="https://res.cloudinary.com/danefi6av/image/upload/v1692567336/img/WhatsApp_Image_2023-08-20_at_3.51.57_PM_adhrep.jpg" alt="Slide 3">
+      </div>
+    </div>
+    <div class="text-container">
+      <h1>Project name</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut diam vel elit dapibus tincidunt ac non ligula. Suspendisse euismod, tortor a ultricies malesuada, urna ex ullamcorper nunc, et finibus risus tellus vitae tortor. Ut laoreet metus id ex tempus, ac auctor tortor aliquam.</p>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="slider-container">
+      <div class="slider">
+        <img src="https://res.cloudinary.com/danefi6av/image/upload/v1692567724/img/WhatsApp_Image_2023-08-20_at_3.53.44_PM_o2yuxj.jpg" alt="Slide 1">
+        <img src="https://res.cloudinary.com/danefi6av/image/upload/v1692567843/img/IMG_3275_h8atgc.jpg" alt="Slide 2">
+        <img src="https://res.cloudinary.com/danefi6av/image/upload/v1692567336/img/WhatsApp_Image_2023-08-20_at_3.51.57_PM_adhrep.jpg" alt="Slide 3">
+      </div>
+    </div>
+    <div class="text-container">
+      <h1>Project name</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut diam vel elit dapibus tincidunt ac non ligula. Suspendisse euismod, tortor a ultricies malesuada, urna ex ullamcorper nunc, et finibus risus tellus vitae tortor. Ut laoreet metus id ex tempus, ac auctor tortor aliquam.</p>
+    </div>
+  </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const sliders = document.querySelectorAll('.slider');
+
+  sliders.forEach(slider => {
+    let currentIndex = 0;
+    const slides = slider.querySelectorAll('img');
+
+    function showSlide(index) {
+      slides.forEach(slide => slide.style.display = 'none');
+      slides[index].style.display = 'block';
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    showSlide(currentIndex);
+
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds
+  });
+});
+
+</script>
     
         <div class="footercontainer">
             <h1>FOLLOW US</h1>
