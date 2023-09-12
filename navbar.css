@@ -175,8 +175,8 @@ a {
     height: 100%;
   }
 
-   .nav__list ul{
-   width:20px;
+   .nav__list li{
+   width:20vh;
   }
 }
 
