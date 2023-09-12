@@ -609,9 +609,9 @@ html, body {
 }
 
 #slider-page p {
-  font-size: 5px;
+  font-size: 6px;
   width: 70%;
-  margin-left: 50px;
+  margin-left: 100px;
   padding-top: 40px;
   margin-bottom: -20px;
   text-align: center;
@@ -621,7 +621,7 @@ html, body {
 .items {
   position: relative;
   top: 40%;
-  left: 30%;
+  left: 10%;
   transform: translate(-50%, -50%);
   user-select: none;
   width: 100px;
