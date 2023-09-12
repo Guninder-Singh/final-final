@@ -86,6 +86,7 @@ a {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 100%;
+ z-index:999;
 }
 
 /*=============== HEADER ===============*/
@@ -113,6 +114,7 @@ a {
 .nav__data {
   height: 100%;
   display: flex;
+  z-index:999;
   justify-content: space-between;
   align-items: center;
 }
@@ -160,6 +162,7 @@ a {
     position: absolute;
     left: 0;
     top: 2.5rem;
+    z-index:999;
     width: 100%;
     height: calc(100vh - 3.5rem);
     overflow: auto;
@@ -185,7 +188,8 @@ a {
   color: var(--white-color);
   background-color: transparent;
   font-weight: var(--font-semi-bold);
-  padding: 1.25rem 1.5rem;
+  padding: 2rem 1.5rem;
+  z-index:999;
   display: contents;
   justify-content: space-between;
   align-items: baseline;
@@ -200,6 +204,7 @@ a {
 
 /* Show menu */
 .show-menu {
+  z-index:999;
   opacity: 1;
   top: 3.5rem;
   pointer-events: initial;
@@ -231,6 +236,7 @@ a {
   padding: 1.25rem 1.25rem 2.05rem 1.25rem;
   margin-top: 0.015rem;
   color: var(--white-color);
+  z-index:999;
   background-color: #090f16;
   display: flex;
   align-items: center;
@@ -249,6 +255,7 @@ a {
 .dropdown__link:hover, 
 .dropdown__sublink:hover {
   background-color: var(--black-color);
+  z-index:999;
   scale: 1.05;
 }
 
@@ -285,6 +292,7 @@ a {
 @media screen and (max-width: 340px) {
   .container {
     margin-inline: 1rem;
+    z-index:999;
   }
 
   .nav__link {
@@ -296,6 +304,7 @@ a {
 @media screen and (min-width: 1118px) {
   .container {
     margin-inline: auto;
+    z-index:999;
   }
 
   .nav {
