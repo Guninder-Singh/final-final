@@ -1,49 +1,52 @@
-/* Base styles for larger screens */
-.bg-dark {
-    background: #1b1b1b;
-    color: #16c79a;
+.bg-dark{
+    background:  #1b1b1b;
+    color:#16c79a;
     display: flex;
+
+}
+h1,h2.h3,h4{
+font-weight: 900;
 }
 
-h1, h2, h3, h4 {
-    font-weight: 900;
-}
-
-h5, h6, a, p {
+h5,h6,a,p{
     font-weight: 300;
 }
-
-:root {
-    --colorOne: #19456b;
-    --colorTwo: #16c79a;
+:root{
+    --colorOne:#19456b;
+    --colorTwo:#16c79a;
 }
 
-.center-vertical {
-    display: flex;
-    width: 100%;
-    min-height: 100vh;
-    align-items: center;
+.center-vertical{
+display: flex;
+width: 100%;
+min-height: 100vh;
+align-items: center;
 }
 
-.about-us-section {
+.about-us-section{
     width: 80%;
     height: 80vh;
     display: flex;
-    margin: 50vh auto;
-    position: center; /* This should be 'auto' to center horizontally */
-    padding: calc(5% + 30px) 0px;
+  margin:50vh;
+ position:center;
+    padding: calc(5% +30px) 0px ;
 }
 
-.about-us-section .img-head {
-    overflow: hidden;
-    display: flex;
-    width: 600px;
-    margin-right: 20px; /* Changed from 75px */
-    margin-left: 0; /* Removed margin-left */
-    margin-top: -17px;
-}
+.about-us-section .img-head{
 
-.about-us-section .img-head img {
+overflow:hidden;
+
+display: flex;
+
+width: 600px;
+
+margin-right: 75px;
+
+margin-left: 200px;
+
+margin-top: -17px;
+}
+.about-us-section .img-head img{
     width: 80vh;
     height: 60vh;
     display: block;
@@ -53,12 +56,12 @@ h5, h6, a, p {
     left: 5%;
 }
 
-.about-us-section .img-head:hover img {
+.about-us-section .img-head:hover img{
     transform: scale(1.1);
-    color: black;
+    color:black;
 }
 
-.about-us-section .img-head::after {
+.about-us-section .img-head::after{
     content: "";
     width: 10%;
     height: 50vh;
@@ -68,20 +71,20 @@ h5, h6, a, p {
     top: 0;
     opacity: .5;
 }
-
 .col-12 {
-    width: 100%; /* Changed from 650px */
-    margin-left: 0; /* Removed margin-left */
+    width: 650px;
+    margin-left: -35vh;
 }
-
-.about-us-section .text-head {
+.about-us-section .text-head{
     font-size: 40px;
     color: #33bec8;
     width: 100%;
     margin-left: 12%;
 }
 
-.about-us-section .text-para {
+
+
+.about-us-section .text-para{
     font-size: 20px;
     color: #fff;
     margin-top: 33px;
@@ -89,86 +92,88 @@ h5, h6, a, p {
     margin-left: 5%;
     margin-right: 7%;
 }
-
-#link {
+#link{
     height: 14vh;
     width: 23vh;
-    margin-left: auto; /* Changed from 63% */
+    margin-left: 63%;
     font-size: 17px;
 }
 
-.box a:hover {
-    color: black;
-}
-
-#link i {
+    .box a:hover{
+        color:black;
+    }
+#link i{
     padding-top: 5px;
 }
+#link a{
 
-#link a {
-    font-size: 16px;
-    margin-top: -13px;
+font-size: 16px;
+
+margin-top: -13px;
 }
-
-#members {
+#members{
     height: 14vh;
     font-size: 21px;
     width: 23vh;
-    margin-left: auto; /* Changed from 63% */
+    margin-left: 63%;
+    /* margin-right:20px; */
 }
+ #members a{
+ margin-top: -11px;
+ font-size: 16px;
+ }
+    #members i{
+    font-size:40px;
+    }
 
-#members a {
-    margin-top: -11px;
-    font-size: 16px;
-}
 
-#members i {
-    font-size: 40px;
-}
-
-#found {
+#found{
     width: 24vh;
     margin-right: 48px;
     height: 14vh;
     font-size: 17px;
-    margin-left: auto; /* Changed from 63% */
+    margin-left: 63%;
+}
+#found a{
+
+font-size: 16px;
+
+margin-top: -11px;
 }
 
-#found a {
-    font-size: 16px;
-    margin-top: -11px;
+#found i{
+    padding-left:  2px;
 }
 
-#found i {
-    padding-left: 2px;
-}
-
-.about-us-section .box {
+.about-us-section .box{
     background-color: #008294;
     color: #fff;
     display: flex;
     text-align: center;
     align-items: baseline;
-    padding: 5px;
+  padding: 5px;
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
 }
 
-.about-us-section .box i {
+.about-us-section .box i{
     font-size: 40px;
+   
 }
 
-.about-us-section .box a {
+.about-us-section .box a{
     font-size: 13px;
     text-transform: uppercase;
+   
 }
 
-.about-us-section .box p {
+.about-us-section .box p{
     font-size: 22px;
+    
 }
 
 .about-us-section .box::after,
-.about-us-section .box::before {
+.about-us-section .box::before{
     content: "";
     position: relative;
     width: 150px;
@@ -177,49 +182,290 @@ h5, h6, a, p {
     border-radius: 50%;
     transition: transform .3s;
 }
-
-.container {
+.container{
     width: 50%;
     height: 80vh;
     display: flex;
     background-color: #1b1b1b00;
-    margin-left: auto; /* Changed from 50vh */
-    overflow: hidden;
+    margin-left: 50vh;
 }
 
-.about-us-section .box::after {
+.about-us-section .box::after{
     left: -50px;
     top: -50px;
+
 }
 
-.about-us-section .box::before {
+.about-us-section .box::before{
     right: -50px;
     bottom: -50px;
 }
 
 .about-us-section .box:hover::after,
-.about-us-section .box:hover::before {
+.about-us-section .box:hover::before{
     transform: scale(1.2);
 }
 
-#link:hover {
-    cursor: pointer;
-}
+#link:hover{
+    cursor:pointer;
+} 
 
-#alumni {
+#alumni{
     padding-top: -2px;
     margin-top: 1px;
     padding-bottom: -2px;
     color: white;
 }
-
-#icons {
+#icons{
     margin-top: 60px;
 }
-
-.box {
+.box{
     margin-right: 30px;
-    margin-left: 20px;
-    border: solid white 2px;
-    border-radius: 50px;
+    margin-left:20px;
+    border:solid white 2px;
+   border-radius:50px;
+
 }
+/* Base styles for larger screens */
+
+/* Media query for screens smaller than 860px */
+/* Media query for screens smaller than 860px */
+
+@media screen and (max-width: 860px) {
+    .about-us-section .container {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+        text-align: center; /* Center text content */
+        height: auto; /* Let the content determine the height */
+        padding: 20px; /* Add some padding for better spacing */
+    }
+
+div#link {
+    width: 22vh;
+    margin-right: 48px;
+    height: 11vh;
+    font-size: 17px;
+    margin-left: -150%;
+    margin-top: 695px;
+}
+
+div#members {
+    width: 22vh;
+    margin-right: 48px;
+    height: 11vh;
+    font-size: 17px;
+    margin-left: -150%;
+    margin-top: 695px;
+}
+
+div#found {
+    width: 22vh;
+    margin-right: 48px;
+    height: 11vh;
+    font-size: 17px;
+    margin-left: -150%;
+    margin-top: 695px;
+}
+
+.about-us-section .img-head img {/* width: 89vh; *//* height: 69vh; */display: block;transition: transform .3s;margin: auto;position: absolute;left: 7%;right: 7%;}
+
+img {
+    width: 10px;
+}
+
+    .about-us-section .img-head {
+        width: 100%; /* Make the image full width */
+        margin: 0; /* Remove margin for the image */
+    }
+
+    .about-us-section .text-head {
+        font-size: 10px; /* Decrease font size */
+        font-size: 38px;
+        position: absolute;
+        margin-left: -53%;
+        margin-top: 474px;
+    }
+
+    .about-us-section .text-para {
+        font-size: 18px; /* Decrease font size */
+        position: absolute;
+        margin-left: -39%;
+        margin-top: 540px; /* Add space between paragraphs */
+        text-align: center;
+        margin-right: 12%;
+    }
+
+    /* Add margin to create space below the boxes */
+    .about-us-section #icons {
+        margin-top: 10px;
+    }
+
+    .about-us-section .col-12.col-md-4 {
+        width: 100%; /* Make the boxes full width on smaller screens */
+        margin: 10px 0; /* Add space around each box */
+    }
+}
+
+
+/* Media query for screens smaller than 1024px */
+/* Media query for screens smaller than 1024px */
+
+@media screen and (max-width: 1024px) {
+    .about-us-section .container {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+        text-align: center; /* Center text content */
+        height: auto; /* Let the content determine the height */
+        padding: 20px; /* Add some padding for better spacing */
+    }
+
+div#link {
+    width: 22vh;
+    margin-right: 48px;
+    height: 11vh;
+    font-size: 17px;
+    margin-left: -150%;
+    margin-top: 695px;
+}
+
+div#members {
+    width: 22vh;
+    margin-right: 48px;
+    height: 11vh;
+    font-size: 17px;
+    margin-left: -150%;
+    margin-top: 695px;
+}
+
+div#found {
+    width: 22vh;
+    margin-right: 48px;
+    height: 11vh;
+    font-size: 17px;
+    margin-left: -150%;
+    margin-top: 695px;
+}
+
+.about-us-section .img-head img {/* width: 89vh; *//* height: 69vh; */display: block;transition: transform .3s;margin: auto;position: absolute;left: 7%;right: 7%;}
+
+img {
+    width: 10px;
+}
+
+    .about-us-section .img-head {
+        width: 100%; /* Make the image full width */
+        margin: 0; /* Remove margin for the image */
+    }
+
+    .about-us-section .text-head {
+        font-size: 10px; /* Decrease font size */
+        font-size: 38px;
+        position: absolute;
+        margin-left: -53%;
+        margin-top: 474px;
+    }
+
+    .about-us-section .text-para {
+        font-size: 18px; /* Decrease font size */
+        position: absolute;
+        margin-left: -39%;
+        margin-top: 540px; /* Add space between paragraphs */
+        text-align: center;
+        margin-right: 12%;
+    }
+
+    /* Add margin to create space below the boxes */
+    .about-us-section #icons {
+        margin-top: 10px;
+    }
+
+    .about-us-section .col-12.col-md-4 {
+        width: 100%; /* Make the boxes full width on smaller screens */
+        margin: 10px 0; /* Add space around each box */
+    }
+}
+
+/* Media query for screens smaller than 480px */
+/* Media query for screens smaller than 480px */
+
+@media screen and (max-width: 480px) {
+    .about-us-section .container {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+        text-align: center; /* Center text content */
+        height: auto; /* Let the content determine the height */
+        padding: 20px; /* Add some padding for better spacing */
+    }
+
+div#link {
+    width: 22vh;
+    margin-right: 48px;
+    height: 11vh;
+    font-size: 17px;
+    margin-left: -150%;
+    margin-top: 695px;
+}
+
+div#members {
+    width: 22vh;
+    margin-right: 48px;
+    height: 11vh;
+    font-size: 17px;
+    margin-left: -150%;
+    margin-top: 695px;
+}
+
+div#found {
+    width: 22vh;
+    margin-right: 48px;
+    height: 11vh;
+    font-size: 17px;
+    margin-left: -150%;
+    margin-top: 695px;
+}
+
+.about-us-section .img-head img {/* width: 89vh; *//* height: 69vh; */display: block;transition: transform .3s;margin: auto;position: absolute;left: 7%;right: 7%;}
+
+img {
+    width: 10px;
+}
+
+    .about-us-section .img-head {
+        width: 100%; /* Make the image full width */
+        margin: 0; /* Remove margin for the image */
+    }
+
+    .about-us-section .text-head {
+        font-size: 10px; /* Decrease font size */
+        font-size: 38px;
+        position: absolute;
+        margin-left: -53%;
+        margin-top: 474px;
+    }
+
+    .about-us-section .text-para {
+        font-size: 18px; /* Decrease font size */
+        position: absolute;
+        margin-left: -39%;
+        margin-top: 540px; /* Add space between paragraphs */
+        text-align: center;
+        margin-right: 12%;
+    }
+
+    /* Add margin to create space below the boxes */
+    .about-us-section #icons {
+        margin-top: 10px;
+    }
+
+    .about-us-section .col-12.col-md-4 {
+        width: 100%; /* Make the boxes full width on smaller screens */
+        margin: 10px 0; /* Add space around each box */
+    }
+}
+/* Ensure there is space below the footer */
+
+
+
+
+
+
+
+
+
