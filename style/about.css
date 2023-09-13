@@ -107,9 +107,9 @@ margin-top: -17px;
 }
 #link a{
 
-font-size: 16px;
+font-size: 12px;
 
-margin-top: -13px;
+margin-top: -24px;
 }
 #members{
     height: 14vh;
@@ -119,8 +119,8 @@ margin-top: -13px;
     /* margin-right:20px; */
 }
  #members a{
- margin-top: -11px;
- font-size: 16px;
+ margin-top: -22px;
+ font-size: 12px;
  }
     #members i{
     font-size:40px;
@@ -136,9 +136,9 @@ margin-top: -13px;
 }
 #found a{
 
-font-size: 16px;
+font-size: 12px;
 
-margin-top: -11px;
+margin-top: -63px;
 }
 
 #found i{
@@ -247,7 +247,7 @@ div#link {
     margin-right: 48px;
     height: 11vh;
     font-size: 17px;
-    margin-left: -150%;
+    margin-left: -20%;
     margin-top: 695px;
 }
 
@@ -255,8 +255,8 @@ div#members {
     width: 22vh;
     margin-right: 48px;
     height: 11vh;
-    font-size: 17px;
-    margin-left: -150%;
+    font-size: 11px;
+    margin-left: -35%;
     margin-top: 695px;
 }
 
@@ -265,7 +265,7 @@ div#found {
     margin-right: 48px;
     height: 11vh;
     font-size: 17px;
-    margin-left: -150%;
+    margin-left: -50%;
     margin-top: 695px;
 }
 
@@ -282,16 +282,16 @@ img {
 
     .about-us-section .text-head {
         font-size: 10px; /* Decrease font size */
-        font-size: 38px;
+        font-size: 42px;
         position: absolute;
-        margin-left: -53%;
-        margin-top: 474px;
+        margin-left: -25%;
+        margin-top: 461px;
     }
 
     .about-us-section .text-para {
         font-size: 18px; /* Decrease font size */
         position: absolute;
-        margin-left: -39%;
+        margin-left: -12%;
         margin-top: 540px; /* Add space between paragraphs */
         text-align: center;
         margin-right: 12%;
