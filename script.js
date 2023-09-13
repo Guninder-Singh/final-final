@@ -1,15 +1,22 @@
 /*=============== SHOW MENU ===============*/
-const showMenu = (toggleId, navId) =>{
-    const toggle = document.getElementById(toggleId),
-          nav = document.getElementById(navId)
- 
-    toggle.addEventListener('click', () =>{
-        // Add show-menu class to nav menu
-        nav.classList.toggle('show-menu')
- 
-        // Add show-icon to show and hide the menu icon
-        toggle.classList.toggle('show-icon')
-    })
- }
- 
- showMenu('nav-toggle','nav-menu')
+const showMenu = (toggleId, navId) => {
+    const toggle = document.getElementById(toggleId);
+    const nav = document.getElementById(navId);
+
+    // Check if toggle and nav elements exist
+    if (!toggle || !nav) {
+        console.error('Toggle or nav element not found.');
+        return;
+    }
+
+    toggle.addEventListener('click', () => {
+        // Toggle the 'show-menu' class on the nav element
+        nav.classList.toggle('show-menu');
+
+        // Optionally, toggle a class on the toggle button for styling
+        toggle.classList.toggle('active'); // Add a class like 'active' for styling purposes
+    });
+};
+
+showMenu('nav-toggle', 'nav-menu');
+
