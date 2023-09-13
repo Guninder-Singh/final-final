@@ -266,7 +266,7 @@ div#found {
     margin-top: 695px;
 }
 
-.about-us-section .img-head img {/* width: 89vh; *//* height: 69vh; */display: block;transition: transform .3s;margin: auto;position: absolute;left: 7%;right: 7%;}
+.about-us-section .img-head img {width: 100vh;height: 76vh;display: block;transition: transform .3s;margin: auto;position: absolute;left: 7%;right: 7%;}
 
 img {
     width: 10px;
@@ -281,7 +281,7 @@ img {
         font-size: 10px; /* Decrease font size */
         font-size: 38px;
         position: absolute;
-        margin-left: -53%;
+        margin-left: -54%;
         margin-top: 474px;
     }
 
@@ -320,31 +320,31 @@ img {
 div#link {
     width: 22vh;
     margin-right: 48px;
-    height: 11vh;
-    font-size: 17px;
-    margin-left: -150%;
-    margin-top: 695px;
+    height: 14vh;
+    font-size: 19px;
+    margin-left: -20%;
+    margin-top: 630px;
 }
 
 div#members {
     width: 22vh;
     margin-right: 48px;
-    height: 11vh;
+    height: 14vh;
     font-size: 17px;
-    margin-left: -150%;
-    margin-top: 695px;
+    margin-left: -46%;
+    margin-top: 630px;
 }
 
 div#found {
     width: 22vh;
     margin-right: 48px;
-    height: 11vh;
+    height: 14vh;
     font-size: 17px;
-    margin-left: -150%;
-    margin-top: 695px;
+    margin-left: -73%;
+    margin-top: 630px;
 }
 
-.about-us-section .img-head img {/* width: 89vh; *//* height: 69vh; */display: block;transition: transform .3s;margin: auto;position: absolute;left: 7%;right: 7%;}
+.about-us-section .img-head img {/* width: 89vh; *//* height: 69vh; */display: block;transition: transform .3s;margin: auto;margin-top: -250px;position: absolute;left: 10%;right: 4%;}
 
 img {
     width: 10px;
@@ -357,19 +357,20 @@ img {
 
     .about-us-section .text-head {
         font-size: 10px; /* Decrease font size */
-        font-size: 38px;
+        font-size: 48px;
         position: absolute;
-        margin-left: -53%;
-        margin-top: 474px;
+        margin-left: -28%;
+        margin-top: 310px;
     }
 
     .about-us-section .text-para {
-        font-size: 18px; /* Decrease font size */
+        font-size: 25px; /* Decrease font size */
         position: absolute;
-        margin-left: -39%;
-        margin-top: 540px; /* Add space between paragraphs */
+        margin-left: -18%;
+        margin-top: 395px; /* Add space between paragraphs */
+        position: absolute;
         text-align: center;
-        margin-right: 12%;
+        margin-right: 7%;
     }
 
     /* Add margin to create space below the boxes */
@@ -395,33 +396,33 @@ img {
     }
 
 div#link {
-    width: 22vh;
+    width: 16vh;
     margin-right: 48px;
-    height: 11vh;
+    height: 9vh;
     font-size: 17px;
-    margin-left: -150%;
-    margin-top: 695px;
+    margin-left: -75%;
+    margin-top: 530px;
 }
 
 div#members {
-    width: 22vh;
-    margin-right: 48px;
-    height: 11vh;
+    width: 16vh;
+    margin-right: 54px;
+    height: 9vh;
     font-size: 17px;
-    margin-left: -150%;
-    margin-top: 695px;
+    margin-left: -65%;
+    margin-top: 530px;
 }
 
 div#found {
-    width: 22vh;
-    margin-right: 48px;
-    height: 11vh;
-    font-size: 17px;
-    margin-left: -150%;
-    margin-top: 695px;
+    width: 16vh;
+    margin-right: 49px;
+    height: 9vh;
+    font-size: 20px;
+    margin-left: -63%;
+    margin-top: 530px;
 }
 
-.about-us-section .img-head img {/* width: 89vh; *//* height: 69vh; */display: block;transition: transform .3s;margin: auto;position: absolute;left: 7%;right: 7%;}
+.about-us-section .img-head img {width: 54vh;height: 42vh;display: block;transition: transform .3s;margin: auto;position: absolute;left: 3%;right: 3%;}
 
 img {
     width: 10px;
@@ -434,19 +435,19 @@ img {
 
     .about-us-section .text-head {
         font-size: 10px; /* Decrease font size */
-        font-size: 38px;
+        font-size: 31px;
         position: absolute;
-        margin-left: -53%;
-        margin-top: 474px;
+        margin-left: -29%;
+        margin-top: 318px;
     }
 
     .about-us-section .text-para {
-        font-size: 18px; /* Decrease font size */
+        font-size: 16px; /* Decrease font size */
         position: absolute;
-        margin-left: -39%;
-        margin-top: 540px; /* Add space between paragraphs */
+        margin-left: -17%;
+        margin-top: 371px; /* Add space between paragraphs */
         text-align: center;
-        margin-right: 12%;
+        margin-right: 17%;
     }
 
     /* Add margin to create space below the boxes */
