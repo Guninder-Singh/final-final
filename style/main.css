@@ -773,7 +773,7 @@ html, body {
 .items {
   position: relative;
   top: 40%;
-  left: 10%;
+  left: 40%;
   transform: translate(-50%, -50%);
   user-select: none;
   width: 100px;
