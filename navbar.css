@@ -282,6 +282,10 @@ a {
   z-index:999;
   overflow: hidden;
   transition: max-height .4s ease-out;
+  
+}
+.dropdown__item.open .dropdown__menu {
+  max-height: 1000px; /* Adjust as needed */
 }
 
 /* Show dropdown menu & submenu */
