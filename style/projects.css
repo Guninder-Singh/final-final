@@ -54,3 +54,61 @@ img {
    padding-top: 5vh;
    padding-left: 10vh;
   }
+
+@media only screen and (max-width:1024px){
+.container {
+    display: flex;
+ 
+    background-color: black;
+    color: wheat;
+  
+  }
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+  .slider-container {
+  max-width: 60vh;
+  max-height: 40vh;
+  margin:  auto;
+  overflow: hidden;
+  position: relative;
+  border: solid white;
+  border-radius: 100px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vh;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+img {
+  width: 100%;
+}
+
+  .text-container {
+    flex: 1;
+  }
+
+  .text-container h1 {
+   font-size: 50px;
+   top: 30%;
+   width: 40%;
+   padding-top: 4vh;
+   padding-left: 50vh;
+  }
+
+  .text-container p  {
+   font-size: 20px;
+   top: 40%;
+   width: 85%;
+   padding-top: 5vh;
+   padding-left: 10vh;
+  }
+}
