@@ -12,19 +12,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://kit.fontawesome.com/cc6782c5f3.js" crossorigin="anonymous"></script>
    <script src='/script/nav-bar.js'></script>
-    <script src="https://kit.fontawesome.com/cc6782c5f3.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://kit.fontawesome.com/cc6782c5f3.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="/style/main-2.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
     <link rel="stylesheet" href="/style/nav-bar.css">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script type="module" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dosis:400,600&amp;display=swap'>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script type="module" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dosis:400,600&amp;display=swap'>
    <link rel="stylesheet" href="/style/about.css">
@@ -54,87 +54,113 @@
   
   <nav class="nav container">
     <div class="logoWrapper">
-       <span class="stylish"><a href="/index.html"><img src="https://res.cloudinary.com/danefi6av/image/upload/v1692335632/landingpage/navbar-0/nav%20bar2/nav%20bar/WhatsApp_Image_2023-07-08_at_12.38.37_vojclc.jpg" img alt="team oorja" id="image"></a></span>
+        <span class="stylish"><a href="/index.html"><img src="https://res.cloudinary.com/danefi6av/image/upload/v1692335632/landingpage/navbar-0/nav%20bar2/nav%20bar/WhatsApp_Image_2023-07-08_at_12.38.37_vojclc.jpg" img alt="team oorja" id="image"></a></span>
     </div>
     <!--=============== NAV ===============-->
     <div class="nav">
-       <div class="nav__data">
-          <div class="nav__toggle" id="nav-toggle">
-             <i class="ri-menu-line nav__burger"></i>
-             <i class="ri-close-line nav__close"></i>
-          </div>
+        <div class="nav__data">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line nav__burger"></i>
+                <i class="ri-close-line nav__close"></i>
+            </div>
+        </div>
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li><a class="nav__link" href="/index.html">Home</a></li>
+                <li><a class="nav__link" href="/index.html#aboutt">About Us</a></li>
+                <!--=============== DROPDOWN 1 ===============-->
+                <li class="dropdown__item">
+                    <div class="nav__link">
+                        Achievements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+                    <ul class="dropdown__menu">
+                        <li>
+                            <a href="/files/achieve.html#kari" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Year 2023
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/achieve.html#effi" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Year 2018-19
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/achieve.html#eighteen" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Year 2017-18
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/achieve.html#seventeen" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Year 2016
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--=============== DROPDOWN 2 ===============-->
+                <li class="dropdown__item">
+                    <div class="nav__link">
+                        Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+                    <ul class="dropdown__menu">
+                        <li>
+                            <a href="/files/projects.html#Electric-go-kart" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Electric Go-Kart
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/projects.html#quad-torc" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Quad Torc
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/projects.html#go-kart" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> IC Go-Kart
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/projects.html#e-tron" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i>e-Tron
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="/files/meet-our-team.html" class="nav__link">Meet Our Team</a></li>
+                <li><a href="/files/contact-us.html" class="nav__link">Contact Us</a></li>
+            </ul>
+        </div>
     </div>
-    <!--=============== NAV MENU ===============-->
-    <div class="nav__menu" id="nav-menu">
-       <ul class="nav__list">
-          <li><a class="nav__link" href="/index.html">Home</a></li>
-          <li><a class="nav__link" href="/index.html#aboutt">About Us</a></li>
-          <!--=============== DROPDOWN 1 ===============-->
-          <li class="dropdown__item">
-             <div class="nav__link">
-                Achievements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-             </div>
-             <ul class="dropdown__menu">
-                <li>
-                   <a href="/files/achieve.html#kari" class="dropdown__link">
-                      <i class="ri-arrow-up-down-line"></i> Year 2023
-                   </a>
-                </li>
-                <li>
-                   <a href="/files/achieve.html#effi" class="dropdown__link">
-                      <i class="ri-arrow-up-down-line"></i> Year 2018-19
-                   </a>
-                </li>
-                <li>
-                   <a href="/files/achieve.html#eighteen" class="dropdown__link">
-                      <i class="ri-arrow-up-down-line"></i> Year 2017-18
-                   </a>
-                </li>
-                <li>
-                   <a href="/files/achieve.html#seventeen" class="dropdown__link">
-                      <i class="ri-arrow-up-down-line"></i> Year 2016
-                   </a>
-                </li>
-             </ul>
-          </li>
-          <!--=============== DROPDOWN 2 ===============-->
-          <li class="dropdown__item">
-             <div class="nav__link">
-                Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-             </div>
-             <ul class="dropdown__menu">
-                <li>
-                   <a href="/files/projects.html#Electric-go-kart" class="dropdown__link">
-                      <i class="ri-arrow-up-down-line"></i> Electric Go-Kart
-                   </a>
-                </li>
-                <li>
-                   <a href="/files/projects.html#quad-torc"" class="dropdown__link">
-                      <i class="ri-arrow-up-down-line"></i> Quad Torc
-                   </a>
-                </li>
-                <li>
-                   <a href="/files/projects.html#go-kart" class="dropdown__link">
-                      <i class="ri-arrow-up-down-line"></i> IC Go-Kart
-                   </a>
-                </li>
-                <li>
-                   <a href="/files/projects.html#e-tron" class="dropdown__link">
-                      <i class="ri-arrow-up-down-line"></i>e-Tron
-                   </a>
-                </li>
-             </ul>
-          </li>
-          <li><a href="/files/meet-our-team.html" class="nav__link">Meet Our Team</a></li>
-          <li><a href="/files/contact-us.html" class="nav__link">Contact Us</a></li>
-       </ul>
-    </div>
- </nav>
- 
+</nav>
+
       
     
 
 </div>
+<script type="module">
+  showMenu('nav-toggle', 'nav-menu');
+const dropdownItems = document.querySelectorAll('.dropdown__item');
+
+dropdownItems.forEach((item) => {
+  const toggle = item.querySelector('.nav__link');
+  const submenu = item.querySelector('.dropdown__menu');
+
+  if (toggle && submenu) {
+    toggle.addEventListener('click', (e) => {
+      e.preventDefault(); // Prevent the link from navigating
+
+      // Toggle a class on the submenu to control its visibility
+      submenu.classList.toggle('open');
+      
+      // Toggle the arrow icon if you have one
+      const arrow = toggle.querySelector('.dropdown__arrow');
+      if (arrow) {
+        arrow.classList.toggle('open');
+      }
+    });
+  }
+});
+
+</script>
 
   
 
