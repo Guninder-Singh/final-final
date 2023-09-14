@@ -63,7 +63,7 @@ body{
 
   .slider-container {
   max-width: 60vh;
-  max-height: 0vh;
+  max-height: 50vh;
   margin:  auto;
   overflow: hidden;
   position: relative;
@@ -88,19 +88,19 @@ img {
   }
 
   .text-container h1 {
-   font-size: 50px;
-   top: 30%;
-   width: 100%;
-   padding-top: 4vh;
-   padding-left: 50vh;
+      font-size: 50px;
+    top: 30%;
+    width: 100%;
+    padding-top: 4vh;
+    padding-left: 30vh;
   }
 
   .text-container p  {
-   font-size: 20px;
-   top: 40%;
-   width: 85%;
-   padding-top: 5vh;
-   padding-left: 10vh;
+       font-size: 20px;
+    top: 40%;
+    width: 85%;
+    padding-top: 5vh;
+    padding-left: 5vh;
   }
 
 @media only screen and (max-width:1024px){
