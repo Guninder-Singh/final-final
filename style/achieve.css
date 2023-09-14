@@ -138,6 +138,7 @@
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
+  z-index:1;
   position: relative;
 }
 .timeline-header__title {
