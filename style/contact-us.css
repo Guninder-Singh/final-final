@@ -40,15 +40,14 @@ section {
 }
 
 .section-header h2 {
-  color: #fff;
-  font-weight: bold;
-  font-size: 4em;
-  
-  margin-top: -10vh;
-  margin-left: 60vh;
-margin-top: 5vh;
-height: 15vh;
-width: 100vh;
+      color: #fff;
+    font-weight: bold;
+    font-size: 4em;
+    margin-top: -10vh;
+    margin-left: 50vh;
+    height: 15vh;
+    width: 100vh;
+    margin-top: 15vh;
 }
 
 .section-header p {
@@ -74,14 +73,14 @@ position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 10px;
-  width: 65%;
+  width: 50%;
 top: 10%;
 margin-top: 10vh;
 align-items: center;
 left: 23%;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin:  auto;
+  margin-left:  -5px;
   height: 80vh;
   margin-bottom: 20vh;
   display: flex;
