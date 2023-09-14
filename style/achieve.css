@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   max-width: 1000px;
-  z-index: -1;
+  z-index: 1;
   position: relative;
 }
 .timeline__content-title {
