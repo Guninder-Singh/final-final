@@ -93,6 +93,7 @@ body {
 }
 .wrapper .module-team {
   position: relative;
+  z-index:-1;
 }
 
 .wrapper .module-team:before {
