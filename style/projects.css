@@ -1,4 +1,52 @@
 
+  .footercontainer {
+  max-width: 480px;
+  padding: 50px 20px 10px;
+  text-align: center;
+  background-color: rgba(18, 19, 26, 0.95);
+  opacity: 0.96;
+ z-index: 100;
+ margin-bottom: 20px;
+  
+}
+
+.socialicons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.socialicons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.socialicons a i {
+  font-size: 2em;
+  color: #000;
+  opacity: 0.9;
+}
+
+.socialicons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footerbottom {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  color: white;
+}
+
+.footerbottom pre {
+  color: white;
+}
 .container {
     display: flex;
  
@@ -114,7 +162,70 @@ img {
 
 
     
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:860px){
+.container {
+    display: flex;
+ 
+    background-color: black;
+    color: wheat;
+  
+  }
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+  .slider-container {
+      width: 40vh;
+    max-height: 30vh;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border: solid white;
+    border-radius: 100px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+img {
+  width: 100%;
+}
+
+  .text-container {
+    flex: 1;
+  }
+
+  .text-container h1 {
+      font-size: 40px;
+    top: 30%;
+    width: 100%;
+    padding-top: 4vh;
+    padding-left: 20vh;
+  }
+   
+  .text-container p  {
+      font-size: 10px;
+    top: 40%;
+    width: 85%;
+    padding-top: 5vh;
+    padding-left: 10vh;
+  }
+}
+
+
+
+
+
+        
+@media only screen and (max-width:480px){
 .container {
     display: flex;
  
