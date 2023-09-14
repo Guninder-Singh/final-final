@@ -19,7 +19,7 @@
   transition: 0.4s;
   padding: 0 10px;
   
-  z-index:2;
+  z-index:999;
   box-sizing: border-box;
   font-family: inherit, sans-serif;
   color: #fff;
