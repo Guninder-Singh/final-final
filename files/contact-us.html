@@ -1,172 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="codecell, tsec, contact, contact us, harsh kapadia, html, css, js, vanilla css">
+        <meta name="description" content="A static contact us page for TSEC CodeCell by Harsh Kapadia">
+        <meta name="author" content="Harsh Kapadia">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Contact Us Page</title>
-<link rel="stylesheet" href="/style/main.css">
-  <link rel="stylesheet" href="/style/main-2.css">
-  <link rel="stylesheet" href="/style/main.css">
-  <script src="https://kit.fontawesome.com/cc6782c5f3.js" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="/style/nav-bar.css">
-  <link rel="stylesheet" href="/style/contact-us.css">
-<script src="/script/contact-us.js"></script>
-  <script src="/script/navabar.js"></script>
-  <link rel="stylesheet" href="/navbar.css">
-    <script src="/script.js"></script>
-    
-</head>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./static/css/base.css">
+        <link rel="stylesheet" href="/navbar.css">
+        <link rel="stylesheet" href="/style/contact-us.css">
+        <link rel="stylesheet" href="/style/footer.css">
+        
+        <link rel="shortcut icon" href="./static/img/codecell_logo.svg" type="image/x-icon" sizes="any">
 
-<body>
+        <script defer src="./static/js/account_dropdown.js"></script>
+        <script defer src="./static/js/burger_menu_dropdown.js"></script>
 
+        <title>Contact-Us</title>
+    </head>
 
-
-  <section>
-
-    
-  <div  class="main-content">
-    <nav class="nav container">
-      <div class="logoWrapper">
-         <span class="stylish"><a href="/index.html"><img src="https://res.cloudinary.com/danefi6av/image/upload/v1692335632/landingpage/navbar-0/nav%20bar2/nav%20bar/WhatsApp_Image_2023-07-08_at_12.38.37_vojclc.jpg" img alt="team oorja" id="image"></a></span>
-      </div>
-      <!--=============== NAV ===============-->
+    <body>
       <div class="nav">
-         <div class="nav__data">
+        <div class="nav__data">
             <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-menu-line nav__burger"></i>
-               <i class="ri-close-line nav__close"></i>
+                <i class="ri-menu-line nav__burger"></i>
+                <i class="ri-close-line nav__close"></i>
             </div>
-      </div>
-      <!--=============== NAV MENU ===============-->
-      <div class="nav__menu" id="nav-menu">
-         <ul class="nav__list">
-            <li><a class="nav__link" href="/index.html">Home</a></li>
-            <li><a class="nav__link" href="/index.html#aboutt">About Us</a></li>
-            <!--=============== DROPDOWN 1 ===============-->
-            <li class="dropdown__item">
-               <div class="nav__link">
-                  Achievements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-               </div>
-               <ul class="dropdown__menu">
-                  <li>
-                     <a href="/files/achieve.html#kari" class="dropdown__link">
-                        <i class="ri-arrow-up-down-line"></i> Year 2023
-                     </a>
-                  </li>
-                  <li>
-                     <a href="/files/achieve.html#effi" class="dropdown__link">
-                        <i class="ri-arrow-up-down-line"></i> Year 2018-19
-                     </a>
-                  </li>
-                  <li>
-                     <a href="/files/achieve.html#eighteen" class="dropdown__link">
-                        <i class="ri-arrow-up-down-line"></i> Year 2017-18
-                     </a>
-                  </li>
-                  <li>
-                     <a href="/files/achieve.html#seventeen" class="dropdown__link">
-                        <i class="ri-arrow-up-down-line"></i> Year 2016
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <!--=============== DROPDOWN 2 ===============-->
-            <li class="dropdown__item">
-               <div class="nav__link">
-                  Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-               </div>
-               <ul class="dropdown__menu">
-                  <li>
-                     <a href="/files/projects.html#Electric-go-kart" class="dropdown__link">
-                        <i class="ri-arrow-up-down-line"></i> Electric Go-Kart
-                     </a>
-                  </li>
-                  <li>
-                     <a href="/files/projects.html#quad-torc"" class="dropdown__link">
-                        <i class="ri-arrow-up-down-line"></i> Quad Torc
-                     </a>
-                  </li>
-                  <li>
-                     <a href="/files/projects.html#go-kart" class="dropdown__link">
-                        <i class="ri-arrow-up-down-line"></i> IC Go-Kart
-                     </a>
-                  </li>
-                  <li>
-                     <a href="/files/projects.html#e-tron" class="dropdown__link">
-                        <i class="ri-arrow-up-down-line"></i>e-Tron
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <li><a href="/files/meet-our-team.html" class="nav__link">Meet Our Team</a></li>
-            <li><a href="/files/contact-us.html" class="nav__link">Contact Us</a></li>
-         </ul>
-      </div>
-   </nav>
+        </div>
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li><a class="nav__link" href="/index.html">Home</a></li>
+                <li><a class="nav__link" href="/index.html#aboutt">About Us</a></li>
+                <!--=============== DROPDOWN 1 ===============-->
+                <li class="dropdown__item">
+                    <div class="nav__link">
+                        Achievements <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+                    <ul class="dropdown__menu">
+                        <li>
+                            <a href="/files/achieve.html#kari" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Year 2023
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/achieve.html#effi" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Year 2018-19
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/achieve.html#eighteen" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Year 2017-18
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/achieve.html#seventeen" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Year 2016
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!--=============== DROPDOWN 2 ===============-->
+                <li class="dropdown__item">
+                    <div class="nav__link">
+                        Projects <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+                    <ul class="dropdown__menu">
+                        <li>
+                            <a href="/files/projects.html#Electric-go-kart" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Electric Go-Kart
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/projects.html#quad-torc" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> Quad Torc
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/projects.html#go-kart" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i> IC Go-Kart
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/files/projects.html#e-tron" class="dropdown__link">
+                                <i class="ri-arrow-up-down-line"></i>e-Tron
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="/files/meet-our-team.html" class="nav__link">Meet Our Team</a></li>
+                <li><a href="/files/contact-us.html" class="nav__link">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
       
     
-  </div>
-  
-
-
-
-    <div class="section-header">
-      <div class="container">
-        <h2>Contact Us</h2>
-        
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="contact-form">
-          
-            <form action="https://formsubmit.co/el/zebiga" method="POST" id="contact-form">
-
-            <h2>Send Message</h2>
-            <div class="input-box">
-              <label for="name">Full Name</label>
-              <input type="text" required="true" name="name" id="name">
-            </div>
-            <div class="input-box">
-              <label for="email">Email</label>
-              <input type="email" required="true" name="email" id="email">
-            </div>
-            <div class="input-box">
-              <label for="message">Message</label>
-              <textarea required="true" name="message" id="message"></textarea>
-            </div>
-            <div class="input-box">
-              <input type="submit" value="Send" name="submit">
-            </div>
-            <div id="success-message" class="success-message"></div>
-            <div id="error-message" class="error-message"></div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <div class="footercontainer">
-  <h1>FOLLOW US</h1>
-  <div class="socialicons">
-      <a href="https://www.facebook.com/teamoorja/?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
-      <a href="https://instagram.com/team_oorja?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a> 
-      <a href="https://www.linkedin.com/company/team-oorja/"><i class="fab fa-linkedin"></i></a>
-      <a href="https://youtube.com/@teamoorjathaparinstitute2761"><i class="fab fa-youtube"></i></a>
-  </div>
 </div>
-<div class="footerbottom">
-  <p>
-  Copyright © 2022  TEAM OORJA. All Rights Reserved.
-  <br>
-  Made with 💝 by TEAM OORJA
-  </p>
-</div>
-<script src="C:\Users\HP\Desktop\landingpage\navbar-0\nav bar2\nav bar\script.js"></script>
-  <script src="./script.js"></script>
-</body>
 
+        <main>
+            <div class="title">Contact us</div>
+            <div class="title-info">We'll get back to you soon!</div>
+
+            <form action="" method="" class="form">
+                <div class="input-group">
+                    <input type="text" name="first_name" id="first-name" placeholder="First name">
+                    <label for="first-name">First name</label>
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" name="last_name" id="last-name" placeholder="Last Name">
+                    <label for="last-name">Last name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+                    <label for="e-mail">e-mail</label>
+                </div>
+
+                <div class="textarea-group">
+                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                    <label for="message">Message</label>
+                </div>
+
+                <div class="button-div">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <a href="https://www.facebook.com/teamoorja/?mibextid=ZbWKwL" target="_blank"><img class="social-media-img" src="./static/img/social_media/facebook.svg" alt="Facebook"></a>
+            <a href="https://instagram.com/team_oorja?igshid=MzRlODBiNWFlZA==" target="_blank"><img class="social-media-img" src="./static/img/social_media/instagram.svg" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/company/team-oorja/" target="_blank"><img class="social-media-img" src="./static/img/social_media/linkedin.svg" alt="LinkedIn"></a>
+            <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/twitter.svg" alt="Twitter"></a>
+            <a href="https://youtube.com/@teamoorjathaparinstitute2761" target="_blank"><img class="social-media-img" src="./static/img/social_media/youtube.svg" alt="YouTube"></a>
+        </footer>
+    </body>
 </html>
