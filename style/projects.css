@@ -63,7 +63,7 @@ body{
 
   .slider-container {
   max-width: 60vh;
-  max-height: 0vh;
+  max-height: 50vh;
   margin:  auto;
   overflow: hidden;
   position: relative;
