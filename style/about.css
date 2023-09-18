@@ -73,13 +73,13 @@ margin-top: -17px;
 }
 .col-12 {
     width: 650px;
-    margin-left: -35vh;
+    margin-left: 35vh;
 }
 .about-us-section .text-head{
     font-size: 40px;
     color: #33bec8;
     width: 100%;
-    margin-left: -12%;
+    margin-left: 12%;
 }
 
 
@@ -89,13 +89,13 @@ margin-top: -17px;
     color: #fff;
     margin-top: 33px;
     text-align: justify;
-    margin-left: -5%;
+    margin-left: 5%;
     margin-right: 7%;
 }
 #link{
     height: 14vh;
     width: 23vh;
-    margin-left: -63%;
+    margin-left: 63%;
     font-size: 17px;
 }
 
@@ -115,7 +115,7 @@ margin-top: -13px;
     height: 14vh;
     font-size: 21px;
     width: 23vh;
-    margin-left: -63%;
+    margin-left: 63%;
     /* margin-right:20px; */
 }
  #members a{
@@ -132,7 +132,7 @@ margin-top: -13px;
     margin-right: 48px;
     height: 14vh;
     font-size: 17px;
-    margin-left: -63%;
+    margin-left: 63%;
 }
 #found a{
 
@@ -400,7 +400,7 @@ div#link {
     margin-right: 48px;
     height: 9vh;
     font-size: 17px;
-    margin-left: -75%;
+    margin-left: 75%;
     margin-top: 530px;
 }
 
@@ -409,7 +409,7 @@ div#members {
     margin-right: 54px;
     height: 9vh;
     font-size: 17px;
-    margin-left: -65%;
+    margin-left: 65%;
     margin-top: 530px;
 }
 
@@ -418,7 +418,7 @@ div#found {
     margin-right: 49px;
     height: 9vh;
     font-size: 20px;
-    margin-left: -63%;
+    margin-left: 63%;
     margin-top: 530px;
 }
 
@@ -437,14 +437,14 @@ img {
         font-size: 10px; /* Decrease font size */
         font-size: 31px;
         position: absolute;
-        margin-left: -29%;
+        margin-left: 29%;
         margin-top: 318px;
     }
 
     .about-us-section .text-para {
         font-size: 16px; /* Decrease font size */
         position: absolute;
-        margin-left: -17%;
+        margin-left: 17%;
         margin-top: 371px; /* Add space between paragraphs */
         text-align: center;
         margin-right: 17%;
