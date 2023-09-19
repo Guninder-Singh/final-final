@@ -169,148 +169,98 @@ a {
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 480px) {
-  .nav__menu {
-    position: absolute;
-    left: 0;
-    top: 2.5rem;
-    z-index:999;
-    width: 100%;
-    height: calc(100vh - 3.5rem);
-    overflow: auto;
-    pointer-events: none;
-    opacity: 0;
-    transition: top .4s, opacity .3s;
-  }
-  .nav__menu::-webkit-scrollbar {
-    width: 0;
-  }
-  .nav__list {
-    background-color: var(--black-color);
-    padding-top: 1rem;
-    z-index:999;
-    height: 100%;
-  }
-
-   .nav__list li{
-   width:20vh;
-  }
-}
-
-.nav__link {
-  color: var(--white-color);
-  background-color: transparent;
-  font-weight: var(--font-semi-bold);
-  z-index:999;
-  padding: 2rem 1.5rem;
-  z-index:999;
-  display: contents;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-top: 5px;
-  transition: background-color .3s;
-  font-size: 20px;
-}
-
-.nav__link:hover {
-  background-color: var(--black-color-light);
-  z-index:999;
-}
-
-/* Show menu */
-.show-menu {
-  z-index:999;
-  opacity: 1;
-  top: 3.5rem;
-  z-index:999;
-  pointer-events: initial;
-}
-
-/* Show icon */
-.show-icon .nav__burger {
-  opacity: 0;
-  transform: rotate(90deg);
-  z-index:999;
-}
-.show-icon .nav__close {
-  opacity: 1;
-  transform: rotate(90deg);
-}
-
-/*=============== DROPDOWN ===============*/
-.dropdown__item {
-  cursor: pointer;
-  z-index:999;
-  width: max-content;
-}
-
-.dropdown__arrow {
-  font-size: 1.25rem;
-  z-index:999;
-  font-weight: bold;
-}
-
-.dropdown__link, 
-.dropdown__sublink {
-  padding: 1.25rem 1.25rem 2.05rem 1.25rem;
-  margin-top: 0.015rem;
-  color: var(--white-color);
-  z-index:999;
-  background-color: #090f16;
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   display: flex;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  column-gap: 2.5rem;
-  font-weight: var(--font-semi-bold);
-  font-size: 1.2rem;
-  transition: background-color .3s;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
 }
 
-.dropdown__link i, 
-.dropdown__sublink i {
-  font-size: 1.55rem;
-  font-weight: initial;
-  z-index:999;
+.bar {
+  background-color: #fff;
+  height: 4px;
+  width: 25px;
+  margin: 3px 0;
+  transition: 0.4s;
 }
 
-.dropdown__link:hover, 
-.dropdown__sublink:hover {
-  background-color: var(--black-color);
-  z-index:999;
-  scale: 1.05;
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  width: 250px;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
 }
 
-.dropdown__menu, 
-.dropdown__submenu {
-  max-height: 10px;
-  z-index:999;
-  overflow: hidden;
-  transition: max-height .4s ease-out;
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* Show dropdown menu & submenu */
-.dropdown__item:hover .dropdown__menu, 
-.dropdown__subitem:hover > .dropdown__submenu {
-  max-height: 1000px;
-  transition: max-height .4s ease-in;
-  z-index:999;
+.menu-item {
+  padding: 10px 20px;
+  color: #fff;
 }
 
-/* Rotate dropdown icon */
-.dropdown__item:hover .dropdown__arrow {
-  transform: rotate(180deg);
-  z-index:999;
+.menu-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
-/*=============== DROPDOWN SUBMENU ===============*/
-.dropdown__add {
-  margin-left: auto;
+.submenu {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.dropdown__sublink {
-  background-color: var(--black-color-lighten);
+.submenu li {
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #444;
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
+.submenu li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .menu-toggle {
+      display: flex;
+  }
+  .navbar.active {
+      transform: translateX(0);
+  }
+}
+
+
+
 @media screen and (max-width: 340px) {
   .container {
     margin-inline: 1rem;
