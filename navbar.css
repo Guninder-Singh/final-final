@@ -257,6 +257,10 @@ a {
   .navbar.active {
       transform: translateX(0);
   }
+
+ #barr{
+  display:none;
+ }
 }
 
 
