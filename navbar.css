@@ -171,14 +171,6 @@ a {
   }
 /* Navigation for mobile devices */
 @media screen and (max-width: 480px) {
-  body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  height: 100vh;
-  background-color: #f4f4f4;
-}
 
 .menu-toggle {
   display: none;
@@ -257,7 +249,7 @@ a {
       display: flex;
   }
   .navbar.active {
-      transform: translateX(0);
+      transform: translateX(10);
   }
 
  #barr{
@@ -267,16 +259,7 @@ a {
 
 
 
-@media screen and (max-width: 340px) {
-  .container {
-    margin-inline: 1rem;
-    z-index:999;
-  }
 
-  .nav__link {
-    padding-inline: 1rem;
-  }
-}
 
 /* For large devices */
 @media screen and (min-width: 1118px) {
