@@ -166,7 +166,9 @@ a {
 .nav__close {
   opacity: 0;
 }
-
+ .menu-toggle {
+      display: none;
+  }
 /* Navigation for mobile devices */
 @media screen and (max-width: 480px) {
   body {
