@@ -42,8 +42,7 @@ body {
     flex-grow: 1;
     display: initial;
     place-self: center;
- 
-            width: 50%;
+    width: 50%;
     height: 60vh;
     padding: 20px;
     max-width: 40;
