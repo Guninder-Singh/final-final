@@ -34,6 +34,7 @@ color: white;
 #slider-page {
   height: 90vh;
   width: 100%;
+  display:contents;
   background-image: radial-gradient(circle, rgba(3,43,67,1) 15%, rgba(0,0,0,1) 100%);
 }
 
