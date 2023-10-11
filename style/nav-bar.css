@@ -40,12 +40,23 @@ body {
 
 .container {
     flex-grow: 1;
-    display: grid;
+    display: initial;
     place-self: center;
     inline-size: clamp(
         var(--min-width),
         var(--padding-space),
         var(--max-width)
+
+            width: 50%;
+    height: 60vh;
+    padding: 20px;
+    max-width: 40;
+    margin: 0;
+    margin-top: -200px;
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    background-color: transparent;
+    margin-left: 50vh;
     );
 }
 
