@@ -1,17 +1,14 @@
-const container = document.querySelector(".container");
-const primaryNav = document.querySelector(".nav__list");
-const toggleButton = document.querySelector(".nav-toggle");
+let hamMenuIcon = document.getElementById("ham-menu");
+let navBar = document.getElementById("nav-bar");
+let navLinks = navBar.querySelectorAll("li");
 
-toggleButton.addEventListener("click", () => {
-    const isExpanded = primaryNav.getAttribute("aria-expanded");
-    primaryNav.setAttribute(
-        "aria-expanded",
-        isExpanded === "false" ? "true" : "false"
-    );
+hamMenuIcon.addEventListener("click", () => {
+  navBar.classList.toggle("active");
+  hamMenuIcon.classList.toggle("fa-times");
 });
-
-container.addEventListener("click", (e) => {
-    if (!primaryNav.contains(e.target) && !toggleButton.contains(e.target)) {
-        primaryNav.setAttribute("aria-expanded", "false");
-    }
+navLinks.forEach((navLinks) => {
+  navLinks.addEventListener("click", () => {
+    navBar.classList.remove("active");
+    hamMenuIcon.classList.toggle("fa-times");
+  });
 });
