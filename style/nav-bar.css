@@ -29,11 +29,11 @@ width:1px;
 height:5px;
 }
  header {
-    position: fixed;
+       position: fixed;
     width: 100%;
-    margin: auto;
     background-color: transparent;
     padding: 0;
+}
 
   }
  
