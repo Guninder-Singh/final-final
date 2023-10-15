@@ -95,6 +95,7 @@ height:5px;
     #ham-menu {
       display: block;
       color: #ffffff;
+        z-index:999;
     }
     nav a#logo,
     #ham-menu {
@@ -122,6 +123,7 @@ height:5px;
     }
     header {
       padding: 2rem 3rem;
+            z-index:999;
     }
     nav ul {
       top: 65.18px;
