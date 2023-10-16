@@ -34,6 +34,7 @@ height:5px;
     margin: auto;
     background-color: transparent;
     padding: 5rem;
+     transition: top 0.35s;
 
   }
  
@@ -43,6 +44,7 @@ height:5px;
          z-index:999;
     justify-content: space-between;
     align-items: center;
+        
 
   }
   nav ul {
