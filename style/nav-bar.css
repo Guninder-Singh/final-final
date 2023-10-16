@@ -20,6 +20,8 @@
     margin-top: 0;
     animation-name: moveInLeft;
     animation-duration: 3s;
+    position: fixed;
+    transition: top 0.35s;
 }
   *:not(i) {
     font-family: "Poppins", sans-serif;
