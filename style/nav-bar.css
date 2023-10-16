@@ -34,6 +34,7 @@ height:5px;
     position: fixed;
     width: 100%;
     margin: auto;
+     z-index:999;
     background-color: transparent;
     padding: 2rem;
      transition: top 0.35s;
