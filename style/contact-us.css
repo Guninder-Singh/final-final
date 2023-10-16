@@ -77,17 +77,22 @@ position: relative;
 }
 
 .contact-form {
-  padding-top: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
-    width: 50%;
+    width: 40%;
+    background-color: white;
     top: 10%;
     margin-top: 10vh;
     align-items: center;
-    left: 5%;
+    position: fixed;
+    z-index: 1;
+    left: 35%;
+    top: 20%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: auto;
     height: 80vh;
+    margin-top: 10vh;
     margin-bottom: 20vh;
     display: flex;
 }
