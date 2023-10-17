@@ -152,16 +152,17 @@ body{
 
    
     .image-slider {
-      flex: 1;
-      height: 40vh; 
-      width: 100vh; 
-      overflow: hidden;
-      margin-top: 10vh;
-      border-radius: 150px;
-      margin-left: 5vh; 
-      border: solid white;
-      margin-right: 5vh;
-    }
+        flex: 1;
+    height: 40vh;
+    width: 100vh;
+    overflow: hidden;
+    margin-top: 7vh;
+    border-radius: 150px;
+    margin-left: 5vh;
+    border: solid white;
+    margin-right: 2vh;
+}
+    
 
 
     .image-slider img {
@@ -182,7 +183,7 @@ body{
       width: 40%;
       text-align: center;
       color:white;
-      font-size: 15px;
+      font-size: 12px;
       vertical-align: middle;
       margin-top: 10vh;
       margin-left: 5vh;
@@ -191,22 +192,49 @@ body{
       padding-bottom: -20vh;
     }
 
-    .container {
-      display: flex;
-      background-color: black;
-      height: 60vh;
-      width: 100% ;
-      margin-bottom: -1.3vh;
+    .container-projects {
+     display: flex;
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 0;
+    margin-bottom: -2.3vh;
+}
       
+    text-paragraph-alternate{
+          flex: 1;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    vertical-align: middle;
+    margin-top: 10vh;
+    margin-left: 0vh;
     }
 
 
+  text-paragraph-alternate h1{
+        font-size: 5rem;
+    margin-bottom: 5vh;
   }
-
+.image-slider-alternate {
+    flex: 1;
+    height: 50vh;
+    width: 90vh;
+    overflow: hidden;
+    margin-top: 7vh;
+    border-radius: 100px;
+    margin-left: 7vh;
+    border: solid white;
+    margin-right: 0vh;
+}
 
 
 #electric{
-  font-size: 40px;
+  font-size: 30px;
  
   margin-top: -10px;
 }
+  }
