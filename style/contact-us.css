@@ -1,193 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-
-
-body::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 130vh;
-  width: 100%;
-  background-image:  radial-gradient(circle, rgba(3,43,67,1) 15%, rgba(0,0,0,1) 100%);
-}
-
-section {
-  position: relative;
-    z-index: 3;
-  height: 130vh;
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .container {
-width: 100%;
-    height: 100vh;
-    display: flex;
-    background-color: transparent;
-    margin-left: 0;
-    padding: 0;
-    z-index: 999;
-    max-width: 100%;
-    margin-top: 10vh;
-    animation-name: moveInLeft;
-    animation-duration: 3s;
-    position: absolute;
-    transition: top 0.35s;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
 }
 
-.section-header {
-  display: flex;
-  text-align: center;
-  height: 20vh;
-  width: 100%;
+h1 {
+    margin-bottom: 20px;
 }
 
-.section-header h2 {
-      color: #fff;
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
     font-weight: bold;
-    font-size: 5em;
-    margin-top: -10vh;
-    margin-left: 50vh;
-    margin-top: 5vh;
-    height: 15vh;
-    width: 100vh;
-    position: absolute;
+    margin-bottom: 5px;
 }
 
-.section-header p {
-  color: #fff;
-
-position: relative;
-  margin-bottom: 20px;
-  display: flex;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  width: 190vh;
-}
-
-.contact-form {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 40%;
-    background-color: white;
-    top: 10%;
-    margin-top: 10vh;
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    left: 35%;
-    top: 20%;
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: auto;
-    height: 80vh;
-    margin-top: 10vh;
-    margin-bottom: 20vh;
-    display: flex;
+    box-sizing: border-box;
 }
 
-.contact-form h2 {
-  font-weight: bold;
-  font-size: 3em;
-  margin-bottom: 50px;
-  margin-left: 100px;
-  color: #333;
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-.contact-form .input-box {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-  margin-left: 80px;
+button:hover {
+    background-color: #45a049;
 }
+ body{
 
-.contact-form .input-box label {
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #333;
-}
-
-.contact-form .input-box input,
-.contact-form .input-box textarea {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  margin-top: 5px;
-  border: none;
-  border-bottom: 2px solid #333;
-  outline: none;
-  resize: none;
-}
-
-.contact-form .input-box input:focus ~ span,
-.contact-form .input-box textarea:focus ~ span {
-  color: #e91e63;
-  font-size: 12px;
-  transform: translateY(-20px);
-}
-
-.contact-form .input-box input[type="submit"] {
-  width: 100%;
-  background: #04829b;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-  font-size: 18px;
-  border: 1px solid #01333c;
-  transition: 0.5s;
-}
-
-.contact-form .input-box input[type="submit"]:hover {
-  background: #fff;
-  color: #00bcd4;
-}
-
-/* Anchor Links */
-body {
-  scroll-behavior: smooth;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 999;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-}
-
-nav ul li {
-  list-style: none;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-  transition: 0.3s;
-}
-
-nav ul li a:hover {
-  color: #00bcd4;
-}
-
+    background-image:  radial-gradient(circle, rgba(3,43,67,1) 15%, rgba(0,0,0,1) 100%);
+ }
