@@ -5,6 +5,10 @@
 .bg-light {
     background-color: black!important;
 }
+
+#foot{
+  background-color:black;
+}
 .section-footer {
   padding: 60px 0 60px 0;
   background-color: #242424;
