@@ -25,22 +25,29 @@
 <!-- partial:index.partial.html -->
 <div class="timeline-container" id="timeline-1">
  
-      
+   
     <header id="header" class="navbar-demo">
-      <div class="nav-bar">
-          <ul>
-              <li>
-                  <a href="#">Home</a>
-                  <a href="C:\Users\HP\Desktop\New prototype\achieve.html">Acheivements</a>
-                  <a href="C:\Users\HP\Desktop\New prototype\meet-our-team.html">Meet Our Team</a>
-                  <a href="C:\Users\HP\Desktop\New prototype\Page-2.html">Alumni</a>
-              </li>
-          </ul>
-          
-      </div>
-      <button type="" class="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
-  </header> 
-    
+        <div class="nav-bar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="/index/achieve.html">Acheivements</a>
+                    <a href="/index/meet-our-team.html">Meet Our Team</a>
+                    <a href="/index/Page-2.html">Alumini</a>
+                     <a href="/index/projects.html">Projects</a>
+                </li>
+            </ul>
+            
+        </div>
+        <button type="" class="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </header> 
+    <script type="module">
+        $(document).ready(function () {
+    $('.menu-btn').click(function(event) {
+        $('.navbar-demo').toggleClass('open-nav');
+    });
+});
+    </script>
 
 
   <div class="timeline-header">
