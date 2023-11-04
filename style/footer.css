@@ -7,11 +7,11 @@
 }
 
 #foot{
-  background-color:black;
+  background-color:black!important;
 }
 .section-footer {
   padding: 60px 0 60px 0;
-  background-color: black;
+  background-color: black!important;
   color: black;
 }
 a:link {
