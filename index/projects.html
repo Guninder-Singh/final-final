@@ -13,20 +13,28 @@
 <body>
 
 <header id="header" class="navbar-demo">
-    <div class="nav-bar">
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-                <a href="/index/achieve.html">Achievements</a>
-                <a href="/index/meet-our-team.html">Meet Our Team</a>
-                <a href="/index/Page-2.html">Alumni</a>
-                <a href="/index/projects.html">Projects</a>
-                <a href="index.html#foot">Contact Us</a>
-            </li>
-        </ul>
-    </div>
-    <button type="" class="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
-</header>
+        <div class="nav-bar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                    <a href="/index/achieve.html">Achievements</a>
+                    <a href="/index/meet-our-team.html">Meet Our Team</a>
+                    <a href="/index/Page-2.html">Alumni</a>
+                     <a href="/index/projects.html">Projects</a>
+                         <a href="index.html#foot">Contact Us</a>
+                </li>
+            </ul>
+            
+        </div>
+        <button type="" class="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </header> 
+    <script type="module">
+        $(document).ready(function () {
+    $('.menu-btn').click(function(event) {
+        $('.navbar-demo').toggleClass('open-nav');
+    });
+});
+    </script>
     <main>
       <!-- Swiper -->
       <div class="swiper mySwiper">
