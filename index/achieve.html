@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Achievements</title>
-  <link rel="stylesheet" href="/style/main.css">
+
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
   
 <script src="https://kit.fontawesome.com/cc6782c5f3.js" crossorigin="anonymous"></script>
-
+<link rel="stylesheet" href="/style/nav-bar.css">
+<script src="/script/nav-bar.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
-  <link rel="stylesheet" href="/style/nav-bar.css">
-  <link rel="stylesheet" href="/style/achieve.css">     
- <script src="/script/nav-bar.js"></script>
-  <script src="/script/achieve.js"></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
+<link rel="stylesheet" href="/style/achieve.css">     
+<script src="/script/achieve.js"></script>
+<link rel="stylesheet" href="/style/footer.css">
 </head>
 <body>
 
@@ -25,59 +25,29 @@
 <!-- partial:index.partial.html -->
 <div class="timeline-container" id="timeline-1">
  
-  <nav class="navigationWrapper">
-    <div class="logoWrapper">
-      <span class="stylish"><a href="/index/main.html"><img src="https://res.cloudinary.com/danefi6av/image/upload/v1692335632/landingpage/navbar-0/nav%20bar2/nav%20bar/WhatsApp_Image_2023-07-08_at_12.38.37_vojclc.jpg" img alt="team oorja"
-          id="image"></a></span>
-
-    </div>
-    <ul class="navigation">
-      <li class="parent"><a class="link" href="/index/main.html">Home</a></li>
-      <li class="parent"><a class="link" href="/index/main.html#aboutt">About us</a></li>
-      <li class="parent" id="achievements">
-        <a class="link" href="#"><i class="fas fa-minus"></i> Achievements <i class="fas fa-plus"></i></a>
-        <ul class="subnavigation">
-          <li><a class="link" href="/index/achieve.html#kari">Year 2023</a></li>
-          <li><a class="link" href="/index/achieve.html#effi">Year 2018-19</a></li>
-          <li><a class="link" href="/index/achieve.html#eighteen">Year 2017-18</a></li>
-            <li><a class="link" href="/index/achieve.html#seventeen">Year 2016</a></li>
-        </ul>
-      </li>
-      <li class="parent" id="projects">
-        <a class="link" href="#"><i class="fas fa-minus"></i> Projects <i class="fas fa-plus"></i></a>
-        <ul class="subnavigation">
-         <<li><a class="link" href="/index/projects.html#Electric-go-kart" >Electric Go Kart</a></li>
-          <li><a class="link" href="/index/projects.html#quad-torc">Quad Torc</a></li>
-          <li><a class="link" href="/index/projects.html#e-tron">E Tron</a></li>
-          <li><a class="link" href="/index/projects.html#go-kart" >Go Kart</a></li>
-        </ul>
-      </li>
-      <li class="parent"><a class="link" href="/index/meet-our-team.html">Our Team</a></li>
-
-      </li>
-      <li class="parent"><a class="link" href="/index/contact-us.html">Contact us</a></li>
-    </ul>
-
-
-    
-  </nav>
-
-   <script>
-          var clients = document.getElementById('achievements');
-          var services = document.getElementById('projects');
-
-
-      achievements.addEventListener('click', function() {
-       $(achievements).toggleClass("active");
-     $(".parent:not(#achievements)").toggleClass("invisible");
-     }, false);
-
-      projects.addEventListener('click', function() {
-      $(projects).toggleClass("active");
-       $(".parent:not(#projects)").toggleClass("invisible");
-            }, false);
-   </script>
-    
+   
+    <header id="header" class="navbar-demo">
+        <div class="nav-bar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="/index/achieve.html">Acheivements</a>
+                    <a href="/index/meet-our-team.html">Meet Our Team</a>
+                    <a href="/index/Page-2.html">Alumini</a>
+                     <a href="/index/projects.html">Projects</a>
+                </li>
+            </ul>
+            
+        </div>
+        <button type="" class="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </header> 
+    <script type="module">
+        $(document).ready(function () {
+    $('.menu-btn').click(function(event) {
+        $('.navbar-demo').toggleClass('open-nav');
+    });
+});
+    </script>
 
 
   <div class="timeline-header">
@@ -150,28 +120,68 @@
   </div>
 </div>
 
+      <!--Footer-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<div class="footercontainer">
-  <h1>FOLLOW US</h1>
-  <div class="socialicons">
-      <a href="https://www.facebook.com/teamoorja/?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
-      <a href="https://instagram.com/team_oorja?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a> 
-      <a href="https://www.linkedin.com/company/team-oorja/"><i class="fab fa-linkedin"></i></a>
-      <a href="https://youtube.com/@teamoorjathaparinstitute2761"><i class="fab fa-youtube"></i></a>
-  </div>
-</div>
-<div class="footerbottom">
-  <p>
-  Copyright © 2022  TEAM OORJA. All Rights Reserved.
-  <br>
-  Made with 💝 by TEAM OORJA
-  </p>
-</div>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+              <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+      
+              <footer class="nk-footer bg-light has-ovm">
+                <section class="section section-footer ">
+              
+                  <div class="container">
+                    <div class=" block-footer mgb-m30">
+                      <div class="row">
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                          <div class="wgs wgs-text">
+                            <div class="wgs-body">
+                              <a href="./" class="wgs-logo">
+                                <img src="https://res.cloudinary.com/ddjdhrevz/image/upload/v1693212527/FB_IMG_1523040834565_pbdkwa.jpg" alt="logo" style="width: 120px; height: auto;">
+                              </a>
+                              <p>Copyright © 2021 C4B Consulting. <br> All rights reserved. </p>
+                              <p class="copyright-text">Created by <a href="#">CMI</a>.</p>
+                            </div>
+                          </div>
+                        </div><!-- .col -->
+                     
+                        <div class="col-lg-2 col-sm-4 mb-4 mb-sm-0">
+                          <div class="wgs wgs-menu">
+                            <h6 class="wgs-title">Contact Us</h6>
+                            <div class="wgs-body">
+                              <ul class="wgs-links">
+                                <li><a href="#">Phone No - 7694848025</a></li>
+                                <li><a href="#">Email - team_oorja@thapar.edu</a></li>
+                                <li><a href="#">Address - Team Oorja<br>Thapar Institute of Engineering and Technology, Patiala, 147004</a></li>
+                               
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+        
+                        <div class="social-icons">
+                          <i class="fa-brands fa-youtube" id="youtube"></i>
+                          <i class="fa-brands fa-instagram" id="instagram"></i>
+                          <i class="fa-brands fa-linkedin" id="linkedIn"></i>
+                          <i class="fa fa-facebook-square" id="facebook"></i>
+                        </div>
+                      </div><!-- .row -->
+                    </div><!-- .block @e -->
+                  </div>
+              
+                </section>
+                <div class="nk-ovm shape-b"></div>
+              </footer>
+
 
 
 <!-- partial -->
+<script src="https://kit.fontawesome.com/cc6782c5f3.js" crossorigin="anonymous"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
   <script src="/script/achieve.js"></script>
-
+  <script src="/script/nav-bar.js"></script>
+  <script src="C:\Users\HP\Desktop\New prototype\achieve.js"></script>
 </body>
 </html>

@@ -2,7 +2,13 @@
   margin: 0;
   padding: 0;
 }
-
+.timeline-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 80px;
+    position: relative;
+}
 .timeline {
   display: flex;
   margin: 0 auto;
