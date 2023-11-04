@@ -119,6 +119,7 @@
     } 
     .navbar-demo{
 	    height:100%;
+	    width:75%;
 	    z-index: 999;
 	}
     .navbar-demo .nav-bar {
