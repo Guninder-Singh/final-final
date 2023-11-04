@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-wrapper {
+  display: flex;
+}
+.swiper-slide {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: blur(1px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: r;
+  justify-content: end;
+  align-items: self-start;
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-slide span {
+  text-transform: uppercase;
+  color: #fff;
+  background: #1b7402;
+  padding: 7px 18px 7px 25px;
+  display: inline-block;
+  border-radius: 0 20px 20px 0px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.swiper-slide--one span {
+  background: #62667f;
+}
+
+.swiper-slide--two span {
+  background: #087ac4;
+}
+
+.swiper-slide--three span {
+  background: #b45205;
+}
+
+.swiper-slide--four span {
+  background: #087ac4;
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  padding: 25px 45px 0 25px;
+}
+
+.swiper-slide p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 0 25px 35px 25px;
+}
+
+.swiper-slide svg {
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  margin-right: 7px;
+}
+
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(https://res.cloudinary.com/ddjdhrevz/image/upload/v1695396811/tejasava_byfzws.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://res.cloudinary.com/ddjdhrevz/image/upload/v1695399603/IMG_7993_-_Kartikeya_Paul_bajxot.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://res.cloudinary.com/ddjdhrevz/image/upload/v1695399600/IMG_4141_2_-_Yuvraj_Singh_uejlyw.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://res.cloudinary.com/ddjdhrevz/image/upload/v1695393006/20220411_090935_Original_-_Rohit_Singla_ayr8ti.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://res.cloudinary.com/ddjdhrevz/image/upload/v1695399513/PXL_20230810_134738490.PORTRAIT_-_Vansh_Garg_fct0tt.jpg")
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--six {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://res.cloudinary.com/ddjdhrevz/image/upload/v1695399602/IMG_20230818_102937_-_Shaurya_Singh_he8krm.jpg")
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--seven {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://res.cloudinary.com/ddjdhrevz/image/upload/v1695399601/IMG-20220821-WA0137_-_YASH_CHAMOLI_etu72j.jpg")
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--eight {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://res.cloudinary.com/ddjdhrevz/image/upload/v1695393008/918D935D-45D8-4B21-9044-0505FEE37EDD_-_Shashthee_Thakur_exydew.jpg")
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--nine {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://res.cloudinary.com/ddjdhrevz/image/upload/v1695393009/IMG_1448_Original_1_kt9xvj.jpg")
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--ten {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://res.cloudinary.com/ddjdhrevz/image/upload/v1695393007/WhatsApp_Image_2023-09-12_at_21.59.07_q3cdu3.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+
+
+
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
