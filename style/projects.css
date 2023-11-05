@@ -8,14 +8,14 @@
 * {
   margin: 0px;
   padding: 0px;
-  background-color: black!important;
+  background-color: black;
 }
 
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background-color: black!important; /* Set the background color to black */
+  
 }
 
 .clear {
