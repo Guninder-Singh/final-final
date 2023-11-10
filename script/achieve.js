@@ -1,54 +1,89 @@
-(function($) {
-  $.fn.timeline = function() {
-    var selectors = {
-      id: $(this),
-      item: $(this).find(".timeline-item"),
-      activeClass: "timeline-item--active",
-      img: ".timeline__img"
-    };
-    selectors.item.eq(0).addClass(selectors.activeClass);
-    selectors.id.css(
-      "background-image",
-      "url(" +
-        selectors.item
-          .first()
-          .find(selectors.img)
-          .attr("src") +
-        ")"
-    );
-    var itemLength = selectors.item.length;
-    $(window).scroll(function() {
-      var max, min;
-      var pos = $(this).scrollTop();
-      selectors.item.each(function(i) {
-        min = $(this).offset().top - 300;
-        max = $(this).height() + $(this).offset().top;
-        var that = $(this);
-        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
-          selectors.item.removeClass(selectors.activeClass);
-          selectors.id.css("background-image","url(" +
-              selectors.item
-                .last()
-                .find(selectors.img)
-                .attr("src") +
-              ")"
-          );
-          selectors.item.last().addClass(selectors.activeClass);
-        } else if (pos <= max - 40 && pos >= min) {
-          selectors.id.css(
-            "background-image",
-            "url(" +
-              $(this)
-                .find(selectors.img)
-                .attr("src") +
-              ")"
-          );
-          selectors.item.removeClass(selectors.activeClass);
-          $(this).addClass(selectors.activeClass);
-        }
-      });
-    });
-  };
-})(jQuery);
+// Params
+let mainSliderSelector = '.main-slider',
+    navSliderSelector = '.nav-slider',
+    interleaveOffset = 0.5;
 
-$("#timeline-1").timeline();
+// Main Slider
+let mainSliderOptions = {
+      loop: true,
+      speed:1000,
+      autoplay:{
+        delay:3000
+      },
+      loopAdditionalSlides: 10,
+      grabCursor: true,
+      watchSlidesProgress: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on: {
+        init: function(){
+          this.autoplay.stop();
+        },
+        imagesReady: function(){
+          this.el.classList.remove('loading');
+          this.autoplay.start();
+        },
+        slideChangeTransitionEnd: function(){
+          let swiper = this,
+              captions = swiper.el.querySelectorAll('.caption');
+          for (let i = 0; i < captions.length; ++i) {
+            captions[i].classList.remove('show');
+          }
+          swiper.slides[swiper.activeIndex].querySelector('.caption').classList.add('show');
+        },
+        progress: function(){
+          let swiper = this;
+          for (let i = 0; i < swiper.slides.length; i++) {
+            let slideProgress = swiper.slides[i].progress,
+                innerOffset = swiper.width * interleaveOffset,
+                innerTranslate = slideProgress * innerOffset;
+           
+            swiper.slides[i].querySelector(".slide-bgimg").style.transform =
+              "translateX(" + innerTranslate + "px)";
+          }
+        },
+        touchStart: function() {
+          let swiper = this;
+          for (let i = 0; i < swiper.slides.length; i++) {
+            swiper.slides[i].style.transition = "";
+          }
+        },
+        setTransition: function(speed) {
+          let swiper = this;
+          for (let i = 0; i < swiper.slides.length; i++) {
+            swiper.slides[i].style.transition = speed + "ms";
+            swiper.slides[i].querySelector(".slide-bgimg").style.transition =
+              speed + "ms";
+          }
+        }
+      }
+    };
+let mainSlider = new Swiper(mainSliderSelector, mainSliderOptions);
+
+// Navigation Slider
+let navSliderOptions = {
+      loop: true,
+      loopAdditionalSlides: 10,
+      speed:1000,
+      spaceBetween: 5,
+      slidesPerView: 5,
+      centeredSlides : true,
+      touchRatio: 0.2,
+      slideToClickedSlide: true,
+      direction: 'vertical',
+      on: {
+        imagesReady: function(){
+          this.el.classList.remove('loading');
+        },
+        click: function(){
+          mainSlider.autoplay.stop();
+        }
+      }
+    };
+let navSlider = new Swiper(navSliderSelector, navSliderOptions);
+
+// Matching sliders
+mainSlider.controller.control = navSlider;
+navSlider.controller.control = mainSlider;
