@@ -1,0 +1,20 @@
+.sponsors {
+  padding: 20px;
+}
+
+.sponsors h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sponsors .slider {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.sponsors .slider img {
+  display: inline-block;
+  width: 33%;
+  height: 200px;
+}
