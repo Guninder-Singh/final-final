@@ -5,55 +5,43 @@
 .sponsors h2 {
   font-size: 24px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .sponsors .slider {
   width: 100%;
   height: 200px;
   overflow: hidden;
-  background-color:black;
+  position: relative;
 }
 
 .sponsors .slider img {
-  display: inline-block;
-  width: 33%;
+  display: block;
+  width: 100%;
   height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
-/* For screens wider than 768px */
-@media screen and (min-width: 768px) {
-  .sponsors {
-    padding: 40px;
-  }
 
-  .sponsors h2 {
-    font-size: 32px;
-  }
-
-  .sponsors .slider {
-    height: 300px;
-  }
-
-  .sponsors .slider img {
-    width: 25%;
-  }
+.sponsors .slider img.active {
+  opacity: 1;
 }
 
 /* For screens smaller than 768px */
 @media screen and (max-width: 767px) {
   .sponsors {
-    padding: 20px;
+    padding: 10px;
   }
 
   .sponsors h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .sponsors .slider {
-    height: 200px;
-  }
-
-  .sponsors .slider img {
-    width: 33%;
+    height: 150px;
   }
 }
 
