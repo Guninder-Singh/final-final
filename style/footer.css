@@ -1,3 +1,177 @@
+/* CSS Reset 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Link Styling *
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+/* Navigation Links Styling 
+a,
+a:active,
+a:focus {
+    color: #6f6f6f;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+}
+
+/* List Styling 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Image Styling 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Section Styling 
+section {
+    padding: 60px 0;
+    min-height: 100vh;
+}
+
+/* Footer Styling 
+.footer {
+    padding: 100px 0 0;
+    background-color: #000; /* Change to black (#000) or your preferred color */
+}
+
+/* Widget1 Styling 
+.footer .widget1 p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 26px;
+}
+
+/* Social Links Styling 
+.socialLinks ul li a i {
+    display: block;
+    margin: 0 2px;
+    width: 40px;
+    height: 40px;
+    background: #fafafa;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.socialLinks ul li a .fa-facebook-f {
+    color: #4267b2;
+}
+
+.socialLinks ul li a .fa-twitter {
+    color: #1da1f2;
+}
+
+.socialLinks ul li a .fa-google-plus-g {
+    color: #dd5044;
+}
+
+.socialLinks ul li a .fa-linkedin-in {
+    color: #0177b5;
+}
+
+.socialLinks ul li a:hover i {
+    color: #fff;
+}
+
+.socialLinks ul li a:hover .fa-facebook-f {
+    background: #4267b2;
+}
+
+.socialLinks ul li a:hover .fa-twitter {
+    background: #1da1f2;
+}
+
+.socialLinks ul li a:hover .fa-google-plus-g {
+    background: #dd5044;
+}
+
+.socialLinks ul li a:hover .fa-linkedin-in {
+    background: #0177b5;
+}
+
+/* Footer Logo Styling 
+footer .logo {
+    max-width: 200px;
+}
+
+/* Widget2 Styling 
+.footer .widget2 .media5 img {
+    margin-right: 20px;
+    max-width: 100px;
+}
+
+.footer .widget2 .media5 p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.footer .widget2 .media5 span {
+    font-size: 12px;
+    color: #ffb606;
+    text-transform: uppercase;
+    margin-top: 15px;
+    display: block;
+}
+
+.footer .widget2 .media5 {
+    margin-bottom: 20px;
+}
+
+/* Widget3 and Widget4 Styling 
+.footer .widget3 ul li a,
+.footer .widget4 ul li a {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: capitalize;
+    margin-bottom: 13px;
+    display: block;
+}
+
+.footer .widget3 ul li a:hover,
+.footer .widget4 ul li a:hover,
+.footer .widget2 a:hover p {
+    color: #ffb606;
+}
+
+.footer .widget3 h5,
+.footer .widget4 h5 {
+    margin-bottom: 22px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+/* Copy Right Area Styling 
+.copyRightArea {
+    margin-top: 83px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 25px 0 28px;
+}
+
+.copyRightArea p {
+    color: rgba(255, 255, 255, 0.6);
+}*/
 /* CSS Reset */
 * {
     margin: 0;
@@ -141,10 +315,11 @@ footer .logo {
 .footer .widget3 ul li a,
 .footer .widget4 ul li a {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.6);
+    color: #fff; /* Set the default color to white */
     text-transform: capitalize;
     margin-bottom: 13px;
     display: block;
+    transition: color 0.3s ease-in-out; /* Add transition for color change */
 }
 
 .footer .widget3 ul li a:hover,
@@ -172,3 +347,10 @@ footer .logo {
 .copyRightArea p {
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* Hover Effect for List Headings */
+.footer .widget3 h5:hover,
+.footer .widget4 h5:hover {
+    color: #ffb606; /* Change the color on hover to yellow */
+}
+
