@@ -46,7 +46,7 @@ section {
 /* Footer Styling */
 .footer {
     padding: 100px 0 0;
-    background-color: #030a16;
+    background-color: #000; /* Change to black (#000) or your preferred color */
 }
 
 /* Widget1 Styling */
