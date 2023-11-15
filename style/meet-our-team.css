@@ -14,7 +14,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: black;
+  background: #030a16;
   overflow: hidden;
 }
 
@@ -68,11 +68,11 @@
 }
 
 .swiper-slide--three span {
-  background: #b45205;
+  background: #087ac4;
 }
 
 .swiper-slide--four span {
-  background: #087ac4;
+  background: #b45205;
 }
 
 .swiper-slide h2 {
