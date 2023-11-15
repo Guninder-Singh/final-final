@@ -56,24 +56,41 @@
 
 .sponsors .slider {
   width: 100%;
+  max-width: 600px;
   height: 200px;
   overflow: hidden;
   position: relative;
+  margin: 0 auto;
 }
 
 .sponsors .slider img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
-  margin: 0 auto;
+  transition: opacity 0.5s;
 }
 
 .sponsors .slider img.active {
   opacity: 1;
 }
 
-/* For screens smaller than 768px */
+/* Media query for screens between 768px and 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .sponsors {
+    padding: 15px; /* Adjusted padding for medium-sized screens */
+  }
+
+  .sponsors h2 {
+    font-size: 22px; /* Adjusted font size for medium-sized screens */
+  }
+
+  .sponsors .slider {
+    height: 150px;
+  }
+}
+
+/* Media query for screens smaller than 768px */
 @media screen and (max-width: 767px) {
   .sponsors {
     padding: 10px;
@@ -84,7 +101,8 @@
   }
 
   .sponsors .slider {
-    height: 150px;
+    height: 120px; /* Adjusted height for small screens */
   }
 }
+
 
