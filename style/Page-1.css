@@ -27,14 +27,14 @@
 .u-section-1 .u-text-1 {
   font-size: 3.75rem;
   margin: 0;
- font-color:whie;
+ color:whie;
 }
 
 .u-section-1 .u-text-2 {
   font-weight: 700;
   font-size: 1.25rem;
   margin: 24px 0 0;
- font-color:white;
+ color:white;
 }
 
 @media (max-width: 1199px) {
