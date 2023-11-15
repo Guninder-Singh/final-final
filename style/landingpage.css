@@ -98,9 +98,10 @@ h1 {
   .btn {
     padding: 8px 20px;
   }
-  .video-container{
-max-height: 40vh;
-    
+
+  .video-container {
+    max-height: 40vh;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -110,10 +111,10 @@ max-height: 40vh;
   }
 
   .video-container video {
-  object-fit: contain;
-}
+    object-fit: contain;
+  }
 
-.video-container {
-  max-height: 60vh;
-}
+  .video-container {
+    max-height: 60vh;
+  }
 }
