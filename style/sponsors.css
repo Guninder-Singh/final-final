@@ -44,7 +44,7 @@
     height: 150px;
   }
 }
-*/
+
 .sponsors {
   padding: 20px;
 }
@@ -75,14 +75,14 @@
   opacity: 1;
 }
 
-/* Media query for screens between 768px and 991px */
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .sponsors {
-    padding: 15px; /* Adjusted padding for medium-sized screens */
+    padding: 15px; 
   }
 
   .sponsors h2 {
-    font-size: 22px; /* Adjusted font size for medium-sized screens */
+    font-size: 22px;
   }
 
   .sponsors .slider {
@@ -90,7 +90,7 @@
   }
 }
 
-/* Media query for screens smaller than 768px */
+
 @media screen and (max-width: 767px) {
   .sponsors {
     padding: 10px;
@@ -101,8 +101,81 @@
   }
 
   .sponsors .slider {
-    height: 120px; /* Adjusted height for small screens */
+    height: 120px; 
+}*/
+.sponsors {
+  background-color: #030a16;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.sponsors h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: yellow; /* Set the heading color to yellow */
+}
+
+.sponsors .slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto; /* Center the slider */
+}
+
+.sponsors .slider img {
+  width: 100%;
+  height: auto;
+  display: none;
+  animation: slide 3s infinite alternate; /* Add animation for all screen sizes */
+}
+
+.sponsors .slider img.active {
+  display: block;
+}
+
+/* Add styling for the automatic sliding animation */
+@keyframes slide {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 767px) {
+  .sponsors h2 {
+    font-size: 20px;
+  }
+
+  .sponsors .slider {
+    max-width: 100%; /* Adjust for smaller screens */
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .sponsors h2 {
+    font-size: 22px;
+  }
+
+  /* Add styles for medium-sized screens */
+  .sponsors .slider {
+    /* Add medium screen styles */
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Add styles for medium-sized screens */
+}
+
+@media screen and (min-width: 1200px) {
+  /* Add styles for large screens */
+  .sponsors h2 {
+    font-size: 26px;
+  }
+
+  .sponsors .slider {
+    /* Add large screen styles */
+  }
+}
+
 
 
