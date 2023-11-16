@@ -7234,8 +7234,10 @@ section.u-image:not(.u-hover-box),
   cursor: pointer;
 }
 .u-sheet {
-  position: relative;
-  margin: 0 auto;
+    position: relative;
+    margin-top: -8.8vh;
+    margin-bottom: -8.9vh;
+
 }
 .u-xl-mode .u-sheet {
   width: var(--theme-sheet-width-xl);
