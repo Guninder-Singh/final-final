@@ -1,4 +1,4 @@
-section {
+/*section {
     background-color: black;
     padding: 20px;
 }
@@ -47,12 +47,12 @@ h2 {
     opacity: 1;
 }
 
-/* Media queries for responsiveness */
+/* Media queries for responsiveness 
 @media screen and (max-width: 768px) {
     .leader {
         flex: 0 0 100%;
     }
-}
+}*/
 
 /*.u-section-1 {
   background-image: url("https://res.cloudinary.com/danefi6av/image/upload/v1697445755/arpit_1_yunpjd_ok9r1f.jpg");
