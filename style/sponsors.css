@@ -1,108 +1,3 @@
-/*.sponsors {
-  padding: 20px;
-}
-
-.sponsors h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: white !important;
-}
-
-.sponsors .slider {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-}
-
-.sponsors .slider img {
-  display: block;
-  width: 100%;
-  height: 200px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.sponsors .slider img.active {
-  opacity: 1;
-}*/
-
-/* For screens smaller than 768px
-@media screen and (max-width: 767px) {
-  .sponsors {
-    padding: 10px;
-  }
-
-  .sponsors h2 {
-    font-size: 20px;
-  }
-
-  .sponsors .slider {
-    height: 150px;
-  }
-}
-
-.sponsors {
-  padding: 20px;
-}
-
-.sponsors h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.sponsors .slider {
-  width: 100%;
-  max-width: 600px;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-  margin: 0 auto;
-}
-
-.sponsors .slider img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: opacity 0.5s;
-}
-
-.sponsors .slider img.active {
-  opacity: 1;
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .sponsors {
-    padding: 15px; 
-  }
-
-  .sponsors h2 {
-    font-size: 22px;
-  }
-
-  .sponsors .slider {
-    height: 150px;
-  }
-}
-
-
-@media screen and (max-width: 767px) {
-  .sponsors {
-    padding: 10px;
-  }
-
-  .sponsors h2 {
-    font-size: 20px;
-  }
-
-  .sponsors .slider {
-    height: 120px; 
-}*/
 .sponsors {
   background-color: #030a16;
   color: #fff;
@@ -119,7 +14,8 @@
 .sponsors .slider {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 80%; /* Adjust the width as needed */
+  max-width: 400px; /* Set the maximum width */
   margin: 0 auto; /* Center the slider */
 }
 
@@ -155,27 +51,4 @@
   .sponsors h2 {
     font-size: 22px;
   }
-
-  /* Add styles for medium-sized screens */
-  .sponsors .slider {
-    /* Add medium screen styles */
-  }
 }
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  /* Add styles for medium-sized screens */
-}
-
-@media screen and (min-width: 1200px) {
-  /* Add styles for large screens */
-  .sponsors h2 {
-    font-size: 26px;
-  }
-
-  .sponsors .slider {
-    /* Add large screen styles */
-  }
-}
-
-
-
