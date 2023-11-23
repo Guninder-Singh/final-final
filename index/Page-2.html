@@ -373,10 +373,10 @@
 
             <!-- Add more slides as needed -->
         </div>
-        <!-- Add Navigation -->
+        <!-- Add Navigation -
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination"></div>-->
     </div>
 </div>
 <div class="slider-container slider-2018">
@@ -519,28 +519,29 @@ var swiper2020 = new Swiper('.slider-2020 .swiper-container', {
         crossFade: true
     },
 });
+
 </script>
-	     <script type="module">
-  // Initialize Swiper for each slider
-var swiper2019 = new Swiper('.slider-2019 .swiper-container', {
-    pagination: {
-        el: '.slider-2019 .swiper-pagination',
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.slider-2019 .swiper-button-next',
-        prevEl: '.slider-2019 .swiper-button-prev',
-    },
-    autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-    },
-    effect: 'fade',
-    fadeEffect: {
-        crossFade: true
-    },
-});
-</script>
+<script type="module">
+  var swiper2019 = new Swiper('.slider-2019 .swiper-container', {
+      pagination: {
+          el: '.slider-2019 .swiper-pagination',
+          clickable: true,
+      },
+      navigation: {
+          nextEl: '.slider-2019 .swiper-button-next',
+          prevEl: '.slider-2019 .swiper-button-prev',
+      },
+      autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+      },
+      effect: 'fade',
+      fadeEffect: {
+          crossFade: true
+      },
+  });
+    
+  </script>
 <script type="module">
 var swiper2018 = new Swiper('.slider-2018 .swiper-container', {
     pagination: {
